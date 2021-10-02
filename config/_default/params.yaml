@@ -6,37 +6,37 @@
 # Appearance
 
 theme: minimal
-day_night: false
+day_night: true
 font: native
-font_size: L
+font_size: M
 
 # SEO
 
 site_type: Organization
 local_business_type: ''
 org_name: ''
-description: My research group description.
-twitter: ''
+description: The Software Normalization Assessment and Improvement Lab wesite.
+twitter: 'snail_unamur'
 
 # Contact (edit or remove options as required)
 
-email: test@example.org
-phone: 888 888 88 88
+# email: test@example.org
+phone: +32 (0)81 72 52 52
 address:
-  street: 450 Serra Mall
-  city: Stanford
-  region: CA
-  postcode: '94305'
-  country: United States
-  country_code: US
+  street: rue Grandgagnage 21
+  city: Namur
+  #region: CA
+  postcode: 'BE-5000'
+  country: Belgium
+  country_code: BE
 coordinates:
-  latitude: '37.4275'
-  longitude: '-122.1697'
-directions: Enter Building 1 and take the stairs to Office 200 on Floor 2
-office_hours:
-  - 'Monday 10:00 to 13:00'
-  - 'Wednesday 09:00 to 10:00'
-appointment_url: 'https://calendly.com'
+  latitude: '50.46584411773904'
+  longitude: '4.857874265493509'
+directions: "Faculté d'Informatique, 4th floor"
+# office_hours:
+#   - 'Monday 10:00 to 13:00'
+#   - 'Wednesday 09:00 to 10:00'
+# appointment_url: 'https://calendly.com'
 contact_links:
 #  - icon: comments
 #    icon_pack: fas
@@ -57,8 +57,8 @@ main_menu:
 # Localization
 
 date_format: 'Jan 2, 2006'
-time_format: '3:04 PM'
-address_format: en-us
+time_format: '15:04'
+address_format: fr-fr
 
 # Site features
 

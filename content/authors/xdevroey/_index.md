@@ -22,11 +22,9 @@ bio: My research goal is to to ease software testing by exploring new paths to a
 
 # List each interest with a dash
 interests:
-- Search-Based Software Testing
-- Model-Based Testing
-- Mutation Testing
-- Variability Modeling
-- Software Product Line Testing
+- Automated Software Testing
+- Search-based Software Engineering
+- Software Product Lines
 
 # education:
 #  courses:
@@ -77,5 +75,5 @@ highlight_name: false
 user_groups:
 - Faculty
 ---
- 
+
 My name is Xavier Devroey. I am an assistant professor of software engineering at the [Faculty of Computer Science](https://www.unamur.be/en/inf) of the [University of Namur](https://www.unamur.be). My research goal is to to ease software testing by exploring new paths to achieve a high level of automation for test case design, generation, selection, and prioritization. My main research interests include search-based and model-based software testing, test suite augmentation, DevOps, and variability-intensive systems.

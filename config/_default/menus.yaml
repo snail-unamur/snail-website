@@ -4,18 +4,31 @@
 #   The weight parameter defines the order that the links will appear in.
 
 main:
+  - name: About SNAIL
+    url: '#welcome'
+    weight: 10
   - name: News
     url: post
     weight: 20
   - name: People
     url: people
     weight: 30
-  - name: Events
-    url: event
+  - name: Research
+    url: research
     weight: 40
+    identifier: research
+  - name: About
+    url: '/research/#about'
+    weight: 10
+    parent: research
+  - name: Projects
+    url: '/research/#projects'
+    weight: 20
+    parent: research
   - name: Publications
-    url: publication
+    url: '/research/#publications'
+    weight: 30
+    parent: research
+  - name: Msc Thesis
+    url: mscthesis
     weight: 50
-  - name: Contact
-    url: contact
-    weight: 60

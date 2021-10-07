@@ -29,6 +29,6 @@ main:
     url: '/research/#publications'
     weight: 30
     parent: research
-  - name: Msc Thesis
+  - name: MSc Thesis
     url: mscthesis
     weight: 50

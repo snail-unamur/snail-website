@@ -2,7 +2,7 @@
 widget: blank
 headless: true
 
-title: Msc Thesis at SNAIL
+title: Master Thesis projects
 subtitle:
 weight: 10  # section position on page
 design:
@@ -10,4 +10,8 @@ design:
   columns: '1'
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+We offer several master thesis projects to the students following one of the master's programs at the [University of Namur](https://www.unamur.be). Those projects can cover one or more topics related to the [research done at the SNAIL team](/research/#about) or explore new directions. It is also possible to propose your own project related to our ongoing research. If you think you have a great idea, do not hesitate to contact us, but make sure you have clearly identified the research aspect and novelty of your proposal.
+
+The project can be conducted at the computer science faculty, in collaboration with the [members of the team](/people), at another Belgian organization (industry, research center, university, ...) with which we have an ongoing collaboration, or abroad at another university in our network.
+
+If you study at a different university and you would like to do a research internship in the context of one of our projects, you should ask your own university supervisor to contact us. We have limited places available but are always interested in new research opportunities.

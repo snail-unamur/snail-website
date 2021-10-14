@@ -19,4 +19,4 @@ design:
 
 <br>
 
-The **Software Normalization Assessment and Improvement Lab** seeks excellence in software engineering improvement research, teaching, and practice.
+The **Software Normalization Assessment and Improvement Lab** seeks to advance the state-of-the-art and practice of software development by considering software engineering and testing in its context. We conduct research and teach in the area of agile methods, software quality assessment, automated software testing, and variability-intensive systems.

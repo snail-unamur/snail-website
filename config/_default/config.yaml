@@ -5,7 +5,7 @@
 
 title: SNAIL team # Website name
 baseurl: '' # Website URL
-copyright: '' # Footer text, e.g. '© {year} Me'
+copyright: '© {year} SNAIL team' # Footer text, e.g. '© {year} Me'
 
 ############################
 ## LANGUAGE

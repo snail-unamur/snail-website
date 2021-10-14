@@ -23,7 +23,7 @@ content:
   - Alumni
 design:
   show_interests: true
-  show_role: true
+  show_role: false
   show_social: true
   show_organizations: false
 ---

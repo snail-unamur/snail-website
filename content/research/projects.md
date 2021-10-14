@@ -20,6 +20,7 @@ content:
   filters:
     tags:
       - Funded
+      - 'PhD Thesis'
 
   # Default filter index (e.g. 0 corresponds to the first `filter_button` instance below).
   filter_default: 0
@@ -44,7 +45,7 @@ design:
   #   2 = Compact
   #   3 = Card
   #   5 = Showcase
-  view: 3
+  view: 2
 
   # For Showcase view, flip alternate rows?
   flip_alt_rows: false

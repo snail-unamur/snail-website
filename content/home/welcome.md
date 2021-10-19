@@ -9,6 +9,23 @@ weight: 10  # Order that this section will appear.
 title: |
   Software Normalization Assessment and Improvement Lab
 hero_media: logo-snail.png
+
+# Call to action links (optional).
+#   Display link(s) by specifying a URL and label below. Icon is optional for `cta`.
+#   Remove a link/note by deleting a cta/note block.
+cta:
+  url: '/aboutsnail/'
+  label: About our Lab
+  icon_pack: fas
+  icon: lightbulb
+cta_alt:
+  url: '/people'
+  label: Meet the team
+
+# Note. An optional note to show underneath the links.
+cta_note:
+  label: ''
+
 design:
   # Choose how many columns the section has. Valid values: 1 or 2.
   columns: '1'
@@ -19,4 +36,4 @@ design:
 
 <br>
 
-The **Software Normalization Assessment and Improvement Lab** seeks to advance the state-of-the-art and practice of software development by considering software engineering and testing in its context. We conduct research and teach in the area of agile methods, software quality assessment, automated software testing, and variability-intensive systems.
+Producing good software is hard. Identifying good software is no picnic either. The Software Normalization Assessment and Improvement Lab aims to study how to make these activities easier for students, practitioners and researchers all over the globe and from all walks of life.

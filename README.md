@@ -11,6 +11,74 @@ _[**Wowchemy**](https://wowchemy.com) makes it easy to create a beautiful websit
 - 💡 [Request a **feature** or report a **bug** for _Wowchemy_](https://github.com/wowchemy/wowchemy-hugo-modules/issues)
 - ⬆️ **Updating Wowchemy?** View the [Update Guide](https://wowchemy.com/docs/update/) and [Release Notes](https://github.com/wowchemy/wowchemy-hugo-modules/releases)
 
-## Ecosystem
+## Adding elements to the SNAIL Website
 
-* **[Hugo Academic CLI](https://github.com/wowchemy/hugo-academic-cli/):** Automatically import publications from BibTeX
+### Team members
+
+Team members are listed in [content/authors/](content/authors/). Each team member has its own subdirectory, corresponding to their **eId**. *Please use the eId of the members of the team when encoding authors for publications, projects, and news.*
+
+Each user must be part of one of the following user groups (`user_groups:` in the `_index.md` of the user):
+- Faculty
+- Researchers
+- PhD Students
+- MSc Students
+- Alumni
+
+More groups can be added in the [content/people/people.md](content/people/people.md) file.
+
+Check [Wowchemy documentation](https://wowchemy.com/docs/content/authors/) to know more about profiles content.
+
+### Projects
+
+Projects are listed in [content/project/](content/project/). Each project has its own subdirectory, which respects the format:
+
+- `mscthesis-eid` for master thesis projects. Those projects **must** include the following tags to ensure proper rendering:
+```
+tags:
+  - Msc Thesis
+  - (Finished|Ongoing)
+```
+
+- `phdthesis-eid` for PhD thesis projects. Those projects **must** include the following tags to ensure proper rendering:
+```
+tags:
+  - PhD Thesis
+  - (Finished|Ongoing)
+```
+
+- `project-id` for (funded) research projects that are not PhD thesis projects (like FRIA or FNRS scholarships). Those projects **must** include the following tags to ensure proper rendering:
+```
+tags:
+  - Funded
+  - (Finished|Ongoing)
+```
+
+### Publications
+
+Publications are available in [content/publication/](content/publication/). Each publication has its own subdirectory, corresponding to the key `first author's last name-year`, followed by a letter if multiple publications have been accepted on the same year. Each folder should contain:
+
+- `index.md` contains the information about the publication, following the format detailed at [https://wowchemy.com/docs/content/publications/](https://wowchemy.com/docs/content/publications/).
+
+- `cite.bib` contains the reference to the publication in Bibtex format.
+
+- `featured.(png|jpg)` is a figure used as a preview of the paper, displayed before the abstract.
+
+Alternatively, one can use the [Hugo Academic CLI](https://github.com/wowchemy/hugo-academic-cli/) tool to automatically import publications from BibTeX. Please make sure that the Bibtex key follows the `first author's last name-year` format before the import (or you will have to rename all the folders manually).
+
+### Posts and news
+
+News are available in [content/post/](content/post/). Each news has its own subdirectory respecting the format `year-month-day-id`. Check the documentation on blog posts at [https://wowchemy.com/docs/content/blog-posts/](https://wowchemy.com/docs/content/blog-posts/)
+
+### Checklist before commit
+
+Please check before comiting your changes that:
+
+- authors of the SNAIL team  have been added using their identifier, corresponding to the name of the folder [content/author/](content/author/) (for example, `xdevroey` or `bvdose`), to ensure proper referencing on the website.
+
+- the tags you used make sense and are consistent with the existing tags. Have a look at the list available on the [SNAIL website](https://snail.info.unamur.be/tags/) or add you own tags for new research topics.   
+
+- the projects linked to the publication or post have been properly referenced. For instance, if the publication is part of a master or phd thesis, add the reference to the list of projects
+```
+projects:
+  - mscthesis-xyz
+```

@@ -1,0 +1,32 @@
+# Theme metadata
+name = "UNamur"
+
+# Green UNamur #55ab26
+# Dark grey #494949
+# Light grey #696969
+# Web link #1a9e9f
+# Fac. Info. #122476
+
+# Is theme light or dark?
+light = true
+
+# Primary
+primary = "#696969"
+
+# Menu
+menu_primary = "#fff"
+menu_text = "#34495e"
+menu_text_active = "#1a9e9f"
+menu_title = "#2b2b2b"
+
+# Home sections
+home_section_odd = "rgb(255, 255, 255)"
+home_section_even = "rgb(247, 247, 247)"
+
+# Links
+link = "#1a9e9f"
+link_hover = "#122476"
+
+[dark]
+  link = "#bbdefb"
+  link_hover = "#bbdefb"

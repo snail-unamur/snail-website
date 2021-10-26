@@ -5,7 +5,7 @@ title: "JCrashPack2.0: Search-based crash reproduction hardness analysis"
 summary: "This master thesis project, revisits the links between search-based crash reproduction and software quality metrics to assess the hardness of search-based crash reproducing test case generation."
 authors: [bcherry]
 tags:
-  - 'Msc Thesis'
+  - Msc Thesis
   - Finished
   - Crash Reproduction
   - Search-Based Software Testing

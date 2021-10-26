@@ -5,7 +5,7 @@
 
 # Appearance
 
-theme: minimal
+theme: unamur # can be modified in data/themes/unamur.toml
 day_night: true
 font: native
 font_size: M

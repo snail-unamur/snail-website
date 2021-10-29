@@ -34,6 +34,6 @@ design:
   css_class:
 ---
 
-<br>
+<br/>
 
 Producing good software is hard. Identifying good software is no picnic either. The Software Normalization Assessment and Improvement Lab aims to study how to make these activities easier for students, practitioners and researchers all over the globe and from all walks of life.

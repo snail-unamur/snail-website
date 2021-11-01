@@ -4,9 +4,9 @@
 title: Experience Report on Soft and Project Skills Building through Repetition
 abstract: "Acquiring soft and project skills during their studies is of paramount importance for computer science students to integrate large development teams after graduating. Project-oriented learning offers interesting opportunities for teachers to tutor students, and allows them to acquire and train those skills in addition to the core topics of the course. However, since most existing curricula require courses to be as independent as possible (for organizational reasons for instance), some topics are covered in different courses in slightly different ways. This repetition is interesting for understanding difficult notions appropriately, but may also hamper students' understanding when closely related concepts are embedded in different ways. We report here on our teaching approach: we propose a series of projects that share a common theme, in order to (i) provide a transversal understanding of common notions seen in separate courses, and (ii) introduce soft and project skills in a progressive way, enabling students to iteratively experience and learn skills that are necessary for professional life. We report on the results of interviews conducted with the students and extract valuable lessons for reproducing this approach in different curricula."
 authors:
-- xdevroey
+- xavier-devroey
 - Moussa Amrani
-- bvdose
+- benoit-vanderose
 tags:
 - Education
 - Software Engineering

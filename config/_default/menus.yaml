@@ -35,3 +35,7 @@ main:
     url: '/people'
     weight: 80
     parent: aboutsnail
+  - name: Contact
+    url: '/aboutsnail/#contact'
+    weight: 90
+    parent: aboutsnail

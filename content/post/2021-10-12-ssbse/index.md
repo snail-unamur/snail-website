@@ -3,7 +3,7 @@ title: Xavier Devroey, SSBSE 2021 program co-chair
 subtitle: "13th Symposium on Search-Based Software Engineering"
 date: 2021-10-12
 authors:
-  - xdevroey
+  - xavier-devroey
 tags:
   - Search-Based Software Engineering
   - Academic Life

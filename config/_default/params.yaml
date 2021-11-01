@@ -20,8 +20,8 @@ twitter: 'snail_unamur'
 
 # Contact (edit or remove options as required)
 
-# email: test@example.org
-phone: +32 (0)81 72 52 52
+email: snail.info@unamur.be
+#phone: +32 (0)81 72 52 52
 address:
   street: rue Grandgagnage 21
   city: Namur
@@ -38,10 +38,14 @@ directions: "Faculté d'Informatique, 4th floor"
 #   - 'Wednesday 09:00 to 10:00'
 # appointment_url: 'https://calendly.com'
 contact_links:
-#  - icon: comments
-#    icon_pack: fas
-#    name: Discuss on Forum
-#    link: 'https://discourse.gohugo.io'
+  - icon: twitter
+    icon_pack: fab
+    name: 'Follow us on Twitter'
+    link: 'https://twitter.com/snail_unamur'
+  - icon: github
+    icon_pack: fab
+    name: 'Find us on GitHub'
+    link: 'http://github.com/snail-unamur'
 
 # Site header
 

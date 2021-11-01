@@ -15,7 +15,7 @@ _[**Wowchemy**](https://wowchemy.com) makes it easy to create a beautiful websit
 
 ### Team members
 
-Team members are listed in [content/authors/](content/authors/). Each team member has its own subdirectory, corresponding to their **eId**. *Please use the eId of the members of the team when encoding authors for publications, projects, and news.*
+Team members are listed in [content/authors/](content/authors/). Each team member has its own subdirectory, corresponding to their **firstname-lastname**. *Please use this identifier of the members of the team (i.e., firstname-lastname) instead of their full name when encoding authors for publications, projects, and news to ensure proper linking on the website.*
 
 Each user must be part of one of the following user groups (`user_groups:` in the `_index.md` of the user):
 - Faculty
@@ -28,18 +28,25 @@ More groups can be added in the [content/people/people.md](content/people/people
 
 Check [Wowchemy documentation](https://wowchemy.com/docs/content/authors/) to know more about profiles content.
 
+
+Hugo command to add a team member:
+
+```
+hugo new --kind authors authors/eid
+```
+
 ### Projects
 
 Projects are listed in [content/project/](content/project/). Each project has its own subdirectory, which respects the format:
 
-- `mscthesis-eid` for master thesis projects. Those projects **must** include the following tags to ensure proper rendering:
+- `msc-firstname-lastname` for master thesis projects. Those projects **must** include the following tags to ensure proper rendering:
 ```
 tags:
   - Msc Thesis
   - (Finished|Ongoing)
 ```
 
-- `phdthesis-eid` for PhD thesis projects. Those projects **must** include the following tags to ensure proper rendering:
+- `phd-firstname-lastname` for PhD thesis projects. Those projects **must** include the following tags to ensure proper rendering:
 ```
 tags:
   - PhD Thesis
@@ -51,6 +58,12 @@ tags:
 tags:
   - Funded
   - (Finished|Ongoing)
+```
+
+Hugo command to add a project:
+
+```
+hugo new --kind project project/msc-firstname-lastname
 ```
 
 ### Publications
@@ -65,15 +78,27 @@ Publications are available in [content/publication/](content/publication/). Each
 
 Alternatively, one can use the [Hugo Academic CLI](https://github.com/wowchemy/hugo-academic-cli/) tool to automatically import publications from BibTeX. Please make sure that the Bibtex key follows the `first author's last name-year` format before the import (or you will have to rename all the folders manually).
 
+Hugo command to add a publication:
+
+```
+hugo new --kind publication publication/lastname-2020
+```
+
 ### Posts and news
 
-News are available in [content/post/](content/post/). Each news has its own subdirectory respecting the format `year-month-day-id`. Check the documentation on blog posts at [https://wowchemy.com/docs/content/blog-posts/](https://wowchemy.com/docs/content/blog-posts/)
+News are available in [content/post/](content/post/). Each news has its own subdirectory respecting the format `year-month-day-id`. Check the documentation on blog posts at [https://wowchemy.com/docs/content/blog-posts/](https://wowchemy.com/docs/content/blog-posts/).
+
+Hugo command to add a news:
+
+```
+hugo new --kind post post/2020-10-08-mynews
+```
 
 ### Checklist before commit
 
 Please check before comiting your changes that:
 
-- authors of the SNAIL team  have been added using their identifier, corresponding to the name of the folder [content/author/](content/author/) (for example, `xdevroey` or `bvdose`), to ensure proper referencing on the website.
+- authors of the SNAIL team  have been added using their identifier, corresponding to the name of the folder [content/author/](content/author/) (for example, `xavier-devroey` or `benoit-vanderose`), to ensure proper referencing on the website.
 
 - the tags you used make sense and are consistent with the existing tags. Have a look at the list available on the [SNAIL website](https://snail.info.unamur.be/tags/) or add you own tags for new research topics.   
 

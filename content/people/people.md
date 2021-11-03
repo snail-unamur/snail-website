@@ -20,7 +20,7 @@ content:
   - Researchers
   - PhD Students
   - MSc Students
-  - Alumni
+#  - Alumni
 design:
   show_interests: true
   show_role: false

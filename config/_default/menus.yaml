@@ -31,11 +31,11 @@ main:
     url: '/aboutsnail/#news'
     weight: 70
     parent: aboutsnail
-  - name: People
-    url: '/people'
-    weight: 80
-    parent: aboutsnail
   - name: Contact
     url: '/aboutsnail/#contact'
+    weight: 80
+    parent: aboutsnail
+  - name: People
+    url: '/people'
     weight: 90
     parent: aboutsnail

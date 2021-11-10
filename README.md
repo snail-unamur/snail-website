@@ -98,12 +98,23 @@ hugo new --kind post post/2020-10-08-mynews
 
 Please check before comiting your changes that:
 
-- authors of the SNAIL team  have been added using their identifier, corresponding to the name of the folder [content/author/](content/author/) (for example, `xavier-devroey` or `benoit-vanderose`), to ensure proper referencing on the website.
+- authors of the SNAIL team  have been added using their identifier, corresponding to the name of the folder [content/author/](content/author/) (for example, `xavier-devroey` or `benoit-vanderose`), to ensure proper referencing on the website;
+```
+authors:
+  - john-doe
+  - Jane-doe
+  - Another Author
+```
 
-- the tags you used make sense and are consistent with the existing tags. Have a look at the list available on the [SNAIL website](https://snail.info.unamur.be/tags/) or add you own tags for new research topics.   
+- the tags you used make sense and are consistent with the existing tags. Have a look at the list available on the [SNAIL website](https://snail.info.unamur.be/tags/) or add you own tags for new research topics;
+```
+tags:
+  - Topic1
+  - Topic2
+```
 
-- the projects linked to the publication or post have been properly referenced. For instance, if the publication is part of a master or phd thesis, add the reference to the list of projects
+- the projects linked to the publication or post have been properly referenced. For instance, if the publication is part of a master or phd thesis, add the reference to the list of projects.
 ```
 projects:
-  - mscthesis-xyz
+  - msc-john-doe
 ```

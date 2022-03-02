@@ -40,7 +40,7 @@ Producing good software is hard. Identifying good software is no picnic either. 
 
 {{% callout note %}}
 **We are hiring! :tada:** We currently have the following job openings:
-- [Full-time PhD student in testing for cybersecurity](https://jobs.unamur.be/emploi.2022-02-08.9422947591)
-- [Full-time PhD student in AI for software engineering](https://jobs.unamur.be/emploi.2022-02-28.9120761291)
+- [Full-time PhD student in testing for cybersecurity](https://academicpositions.com/ad/university-namur/2022/full-time-phd-student-in-testing-for-cybersecurity-cyberexcellence-project/175050)
+- [Full-time PhD student in AI for software engineering](https://academicpositions.com/ad/university-namur/2022/full-time-phd-student-in-ai-for-software-engineering-ariac-project/176214)
 - [Un(e) assistant(e) (PhD student) à temps plein](https://jobs.unamur.be/emploi.2022-02-28.5308706801)
 {{% /callout %}}

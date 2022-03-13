@@ -49,4 +49,8 @@ The CyberExcellence project started in January 2022 under the umbrella of the [C
 
 Among the different axes addressed by the project, Axis 1 aims to secure the system before its deployment through testing approaches. These approaches will be based on techniques derived from artificial intelligence in order, on the one hand, to predict the interesting test cases based on knowledge of the system, its history and the external components used and, on the other hand, to efficiently explore the space of possible states to find interesting new test cases. For example, machine learning algorithms to detect potential flaws and vulnerabilities from the source code, its evolution and the APIs used, and evolutionary algorithms to generate tests and test data (search-based testing algorithms, fuzzing, etc.). These actions can be carried out in collaboration with the ARIAC Artificial Intelligence project funded by the Walloon region. Results will be produced for the two broad classes of cybersecurity testing, (1) cybersecurity functional testing and (2) penetration testing.
 
-More information available on [CyberWal website](https://cyberwal.be/projets-de-recherche/).
+More information on the CyberExcellence project (No. 2110186), funded by the Public Service of Wallonia (SPW Recherche) are available on the [CyberWal website](https://cyberwal.be/projets-de-recherche/).
+
+<center>
+  {{< figure src="logo-spw.png">}}
+</center>

@@ -50,4 +50,8 @@ ARIAC by DigitalWallonia4.ai is a research project funded by the Wallonia region
 
 Among the different axes, the ARIAC project aims to develop AI-in-the-loop (AITL) approaches for Software Engineering to help developers carry out complex tasks involved in the development and maintenance of software. This process includes learning techniques based on the development history of the software or similar software via, for example, the automatic analysis and mining of software repositories.
 
-More information on the [TRAIL website](https://trail.bydw.be/en/).
+More information on the ARIAC project (No. 2010235), funded by the Public Service of Wallonia (SPW Recherche) are available on the [TRAIL website](https://trail.bydw.be/en/).
+
+<center>
+  {{< figure src="logo-spw.png">}}
+</center>

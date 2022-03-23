@@ -4,13 +4,13 @@
 title: "Presentation abstract : A first case study about key socio-technical software indicators at Forem"
 abstract: "Identifying software maintainability risks is hard yet essential for large organizations like Forem. Such risks are, by nature, socio-technical, but the technical and social parts are usually considered separately, preventing managers from having a clear and complete view of the situation. More specifically, this presentation focuses on our recent study on the potential impact of staff turnover on code complexity. We performed a historical case study at Forem, the Public Service for Employment and Vocational Training in Wallonia (Belgium), counting 92 developers, including several external consultants hired to work fixed-term periods on specific projects."
 authors:
-- nicolas-riquet
-- xavier-devroey
-- benoit-vanderose
+  - nicolas-riquet
+  - xavier-devroey
+  - benoit-vanderose
 tags:
-- Socio-technical Debt
-- University Industry Collaboration
-- Mining Software Repository
+  - Socio-technical Factors
+  - University Industry Collaboration
+  - Mining Software Repository
 date: '2021-12-07'
 lastmod: '2021-12-03'
 featured: false

@@ -10,7 +10,7 @@ authors:
 tags:
   - PhD Thesis
   - Ongoing
-  - Socio-technical Debt
+  - Socio-Technical Factors
   - University Industry Collaboration
 categories: []
 date: 2021-10-03T12:04:44+02:00

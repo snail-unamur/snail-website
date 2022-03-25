@@ -4,7 +4,7 @@ title: "Martin Balfroid"
 
 # Username (this should match the folder name and the name on publications)
 authors:
-- "balfroim"
+  - "martin-balfroid"
 
 # Is this the primary user of the site?
 superuser: false
@@ -22,8 +22,8 @@ bio:
 
 # List each interest with a dash
 interests:
-- Mutation Testing
-- Education
+  - Mutation Testing
+  - Education
 
 # # education:
 #   courses:

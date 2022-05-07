@@ -38,8 +38,9 @@ design:
 
 Producing good software is hard. Identifying good software is no picnic either. The Software Normalization Assessment and Improvement Lab aims to study how to make these activities easier for students, practitioners and researchers all over the globe and from all walks of life.
 
+<!--
 {{% callout note %}}
 **We are hiring! :tada:** We currently have the following job openings:
-- [Full-time PhD student in testing for cybersecurity](https://academicpositions.com/ad/university-namur/2022/full-time-phd-student-in-testing-for-cybersecurity-cyberexcellence-project/175050)
 - [Full-time PhD student in AI for software engineering](https://academicpositions.com/ad/university-namur/2022/full-time-phd-student-in-ai-for-software-engineering-ariac-project/176214)
 {{% /callout %}}
+-->

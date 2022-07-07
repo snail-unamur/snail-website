@@ -32,7 +32,7 @@ Check [Wowchemy documentation](https://wowchemy.com/docs/content/authors/) to kn
 Hugo command to add a team member:
 
 ```
-hugo new --kind authors authors/eid
+hugo new --kind authors authors/firstname-lastname
 ```
 
 ### Projects

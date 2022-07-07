@@ -1,14 +1,14 @@
 ---
 # Documentation: https://wowchemy.com/docs/managing-content/
 
-title: "MuTEd: Using mutation testing to enhance software testing education"
-summary: "The goal of this master thesis is to define a mutation strategy for software testing education relyinng on a dedicated set of mutation operators with specific mutants selection approach to present only interesting mutants to the students."
+title: "MuTEd: A Comparative Study of Classic and Extreme Mutation Testing for Teaching Software Testing"
+summary: 
 authors:
   - martin-balfroid
   - pierre-luycx
 tags:
   - Msc Thesis
-  - Ongoing
+  - Finished
   - Mutation Testing
   - Education
 categories: []
@@ -46,5 +46,4 @@ url_video: ""
 slides: ""
 ---
 
-One of the main challenges when learning software testing is to define good oracles for the tests. An oracle is a mechanism allowing to automatically decide if a test passes or fails based on its execution. For unit testing, an oracle takes the form of assertions added to the code of the unit tests to check specific output values. Over the years, several techniques (like lines or branch coverage) have been developed to allow developers to check the quality of their tests. Among those, mutation testing injects defects (using mutation operators) to a given source code to see if the current tests can detect them. Recently, Vera-Pérez et al. developed [Descartes](https://github.com/STAMP-project/pitest-descartes), a mutation engine relying on extreme mutation operators to evaluate the quality of the assertions of a test suite. Using a plugin extension called [Reneri](https://github.com/STAMP-project/descartes-reneri), Descartes can generate a report providing information to the developer on the potential reasons why mutants remain undetected. Descartes + Reneri requires a certain amount of knowledge about mutation testing and might not be suited for software testing education.
-The goal of this master thesis is, following the Descartes + Reneri philosophy, to define a mutation strategy for software testing education. Such strategy would rely on a dedicated set of mutation operators with specific mutants selection approach to present only interesting mutants to the students. Following the Reneri approach, the mutation strategy can also generate reports explaining to students how they can write tests able to kill specific mutants.
+Although software testing is critical in software engineering, studies have shown a significant gap between students’ knowledge of software testing and the industry’s needs, hinting at the need to explore novel approaches to teach software testing. Among them, classical mutation testing has already proven to be effective in helping students. We hypothesise that extreme mutation testing could be more effective by introducing more obvious mutants to kill. In order to study this question, we organised an experiment with two undergraduate classes comparing the usage of two tools, one applying classical mutation testing, and the other one applying extreme mutation testing. The results contradicted our hypothesis. Indeed, students with access to the classic mutation testing tool obtained a better mutation score, while the others seem to have mostly covered more code. Finally, we have published and anonymised the students’ test suites in adherence to best open-science practices, and we have developed guidance based on previous evaluations and our own results.

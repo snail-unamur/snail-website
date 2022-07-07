@@ -1,10 +1,10 @@
 ---
 # Display name
-title: "Zakaria El Idrissi"
+title: "Samuel Van De Put"
 
 # Username (this should match the folder name and the name on publications)
 authors:
-- "zakaria-el-idrissi"
+- "samuel-van-de-put"
 
 # Is this the primary user of the site?
 superuser: false
@@ -22,8 +22,7 @@ bio:
 
 # List each interest with a dash
 interests:
-- Software Product Lines
-- Variability Mining
+- Mutation Testing
 
 # # education:
 #   courses:
@@ -41,7 +40,7 @@ interests:
 social:
   - icon: linkedin
     icon_pack: fab
-    link: 'https://www.linkedin.com/in/zelidriss'
+    link: 'https://www.linkedin.com/in/samuel-van-de-put-014559108/'
 # - icon: twitter
 #   icon_pack: fab
 #   link: https://twitter.com/USERNAME
@@ -66,5 +65,5 @@ highlight_name: false
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-- Alumni
+- MSc Students
 ---

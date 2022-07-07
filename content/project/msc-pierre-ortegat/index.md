@@ -1,13 +1,13 @@
 ---
 # Documentation: https://wowchemy.com/docs/managing-content/
 
-title: "SimPyTest: Test case generation for simple Python programs"
-summary: "The goal of this master thesis is to study how automatic test generation tools can help reduce the setup time of exercises on programming learning platforms by automatically generating tests for those exercises."
+title: "Génération de tests unitaires pour programmes Python"
+summary: 
 authors:
   - pierre-ortegat
 tags:
   - Msc Thesis
-  - Ongoing
+  - Finished
   - Test Case Generation
   - Education
 categories: []
@@ -45,5 +45,4 @@ url_video: ""
 slides: ""
 ---
 
-Nowadays, many learning platforms offer automatic correction for programming exercises. This is the case, for example, with the  [INGInious](https://inginious.org) platform. However, most of these platforms require a long time to set up, partially due to the number of tests to be written for each exercise. Most of those exercises consist in writing simple programs, for which it could be possible to generate tests automatically.
-The goal of this master thesis is to study how automatic test generation tools can help reduce this setup time by automatically generating tests for different exercises. This generation can be done from a specification describing the piece of code expected from the student or from a given solution. In the context of this thesis, the target programming language is the same as that used in the first year of the bachelor's degree at University of Namur: Python.
+L'application de tests automatiques au code soumis par les étudiants sur une plateforme de correction automatique est un outil utile pour le corps enseignant. Il permet de fournir de meilleurs retours, sur plus d'exercices, créés plus rapidement. Des méthodes des tests automatiques sont analysées et une sélection est faite sur ceux qui, de par leurs caractéristiques, sont les plus intéressants dans le contexte de la correction automatique des codes d'étudiants. Les méthodes retenues sont le fuzzing en boite grise et le test de combinaisons d'appels sur une structure donnée. L'efficacité de celles-ci est discutée et une application pratique est développée sous la forme d'une librairie de test qui s'intègre dans la plateforme de correction automatique Inginious. Les limitations sont analysées et un protocole de test des modifications apportées par celles-ci est ensuite proposé pour pouvoir quantifier les gains apportés via une expérience pratique.

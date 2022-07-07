@@ -4,6 +4,7 @@
 title: "ARIAC"
 summary: "ARIAC by DigitalWallonia4.ai is a research project funded by the Wallonia region bringing together the five French-speaking universities and four Walloon research centres with the primary objective to accelerate the development of artificial intelligence technologies in Wallonia. "
 authors:
+  - martin-balfroid
   - benoit-vanderose
   - xavier-devroey
 tags:

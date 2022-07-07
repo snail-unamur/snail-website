@@ -1,13 +1,13 @@
 ---
 # Documentation: https://wowchemy.com/docs/managing-content/
 
-title: "ReVa@Odoo: Variability reverse engineering, a Odoo case study"
-summary: "The goal of this master thesis is to define, implement, and (potentially) execute a reverse engineering approach for the Odoo ERP using the various artefacts available in the community version to produce a variability model, enabling the analysis of the configuration space of the Odoo ERP."
+title: "Reverse Engineering Variability for Configurable Systems using Formal Concept Analysis: The Odoo case study"
+summary: 
 authors:
-  - tek-sang-au
+  - zakaria-el-idrissi
 tags:
   - Msc Thesis
-  - Ongoing
+  - Finished
   - Software Product Lines
   - Variability Mining
 categories: []
@@ -45,4 +45,4 @@ url_video: ""
 slides: ""
 ---
 
-Software product lines (SPLs) and variability-intensive systems rely on the idea that software of the same family can be built by systematically reusing assets, some common to all members, whereas a subset only shares others. One example of such software is Odoo (https://www.odoo.com), an open-source Enterprise Resource Planning (ERP) platform allowing the integration of various business applications (e-commerce, accounting, manufacturing, warehouse, etc.) depending on the needs of a customer. Over the years, the research community has defined several approaches to reverse engineering and model the variability of SPLs. For example, feature models represent the features (i.e., set of assets) in tree structures and capture the constraints (inclusion, exclusion, etc.) between the different features. Reverse engineering such a model is the first step towards analysing an existing variability-intensive system. The goal of this master thesis is to define, implement, and (potentially) execute a reverse engineering approach for the Odoo ERP using the various artefacts available in the community version (https://github.com/odoo/odoo).
+Reverse Engineering a Feature Model (FM) of an existing system allows its migration to a software product line approach to simplify the management of this system by applying a Software Product Line Engineering methodology that focuses mainly on the FM to determine the reusable artefacts and the variation points of the system. This thesis is a case study on the Odoo framework to define a reverse engineering approach that can drive an automatic synthesis of an FM to represent the variability architecture of the system. We manually explored the Odoo framework source code to identify variability patterns, then exploited Formal Concept Analysis properties to derive the FM based on the Odoo module's dependencies. The heuristic that we executed for the process of reverse engineering is effective and results in FM, which describes the product configuration variability.

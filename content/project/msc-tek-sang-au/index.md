@@ -1,13 +1,13 @@
 ---
 # Documentation: https://wowchemy.com/docs/managing-content/
 
-title: "JCrashBench: Crash reproduction benchmark augmentation using mutation testing"
-summary: "The goal of this master thesis is to complement existing crash reproduction benchmarks by using mutation testing to generate crashy versions of an application and assess those potential crashes using search-based crash reproduction."
+title: "Towards crash reproduction benchmark augmentation using mutation testing"
+summary: 
 authors:
   - tek-sang-au
 tags:
   - Msc Thesis
-  - Ongoing
+  - Finished
   - Crash Reproduction
   - Mutation Testing
 categories: []
@@ -45,5 +45,4 @@ url_video: ""
 slides: ""
 ---
 
-Search-based crash reproduction is a technique relying on genetic algorithms to produce a test case able to reproduce a given crash stack trace. Benchmarking is a crucial step to assess and improve the state-of-the-art of search-based software testing. For crash reproduction, previous research has relied on [JCrashPack](https://github.com/STAMP-project/JCrashPack), a benchmark containing 200 Java crashes. Defining such benchmarks is hard: it requires searching for crashes in issue trackers, investigating the crash to understand its underlying cause, and collecting the necessary artifacts (binaries and source code). A complement to benchmarks with real-world crashes is the definition of artificial crashes using mutation testing on the source to inject artificial defects. This approach has been used successfully to improve the identification of defects using static analysis and machine learning.
-The goal of this master thesis is to use mutation testing to generate crashy versions of an application and assess those potential crashes using search-based software crash reproduction. It will complement the existing benchmark (JCrashPack) with artificial crashes to enhance the comparison of crash reproduction approaches.
+Many applications are developed with a lot of different purposes and can provide quality output. Nevertheless, crashes still happen. Many techniques such as unit testing, peer-reviewing, or crash reproduction are being researched to improve quality by reducing crashes. This thesis contributes to the fast-evolving field of research on crash reproduction tools. These tools seek better reproduction with minimum information as input while delivering correct outputs in various scenarios. Different approaches have previously been tested to gather input-output data, also called benchmarks, but they often take time and manual e↵ort to be usable. The research documented in this thesis endeavours to synthesize crashes using mutation testing to serve as input for crash reproduction tools.

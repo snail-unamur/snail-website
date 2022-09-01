@@ -4,6 +4,7 @@
 title: "CyberExcellence"
 summary: "The CyberExcellence project started in January 2022 under the umbrella of the CyberWal initiative and is funded by the Walloon region. It aims to position Wallonia as a major player in cybersecurity on the national and international map by developing a core framework allowing the implementation of solutions based on practical and thoughtful cybersecurity with a competitive advantage."
 authors:
+  - guillaume-nguyen
   - xavier-devroey
 tags:
   - Funded

@@ -1,10 +1,10 @@
 ---
 # Display name
-title: "Martin Balfroid"
+title: "Jérôme Maquoi"
 
 # Username (this should match the folder name and the name on publications)
 authors:
-  - "martin-balfroid"
+- "jerome-maquoi"
 
 # Is this the primary user of the site?
 superuser: false
@@ -18,14 +18,13 @@ organizations:
   url: ""
 
 # Short bio (displayed in user profile at end of posts)
-bio:
+bio: 
 
 # List each interest with a dash
 interests:
-  - Machine Learning
-  - Test Case Generation
+  - Software Testing
 
-# # education:
+# education:
 #   courses:
 #   - course: Title course 1
 #     institution: Name of Institution
@@ -33,21 +32,26 @@ interests:
 #   - course: Title course 1
 #     institution: Name of Institution
 #     year: 2012
-#
-# # Social/Academic Networking
-# # For available icons, see: https://wowchemy.com/docs/page-builder/#icons
-# #   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
-# #   form "mailto:your-email@example.com" or "#contact" for contact widget.
+
+# Social/Academic Networking
+# For available icons, see: https://wowchemy.com/docs/page-builder/#icons
+#   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
+#   form "mailto:your-email@example.com" or "#contact" for contact widget.
 social:
   - icon: linkedin
     icon_pack: fab
-    link: 'https://www.linkedin.com/in/balfroid-martin-2159b7157'
+    link: 'https://www.linkedin.com/in/jérôme-maquoi-6a6907194/'
   - icon: globe
     icon_pack: fas
-    link: https://researchportal.unamur.be/fr/persons/martin-balfroid
+    link: https://researchportal.unamur.be/fr/persons/jerome-maquoi
   - icon: envelope
     icon_pack: fas
-    link: 'mailto:martin.balfroid@unamur.be'  # For a direct email link, use "mailto:test@example.org".
+    link: 'mailto:jerome.maquoi@unamur.be'  # For a direct email link, use "mailto:test@example.org".
+# Link to a PDF of your resume/CV from the About widget.
+# To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
+# - icon: cv
+#   icon_pack: ai
+#   link: files/cv.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: ""

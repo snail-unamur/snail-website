@@ -39,15 +39,15 @@ interests:
 #   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
 #   form "mailto:your-email@example.com" or "#contact" for contact widget.
 social:
-  - icon: linkedin
-    icon_pack: fab
-    link: 'https://www.linkedin.com/in/guillaume-nguyen-6275a2137/'
   - icon: globe
     icon_pack: fas
     link: https://researchportal.unamur.be/fr/persons/guillaume-nguyen
   - icon: envelope
     icon_pack: fas
     link: 'mailto:guillaume.nguyen@unamur.be'  
+  - icon: linkedin
+    icon_pack: fab
+    link: 'https://www.linkedin.com/in/guillaume-nguyen-6275a2137/'
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: ""

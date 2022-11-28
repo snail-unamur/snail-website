@@ -49,9 +49,12 @@ social:
 - icon: envelope
   icon_pack: fas
   link: 'mailto:xavier.devroey@unamur.be'  # For a direct email link, use "mailto:test@example.org".
-- icon: twitter
+- icon: mastodon
   icon_pack: fab
-  link: https://twitter.com/xdevroey
+  link: https://mas.to/@xdevroey
+- icon: github
+  icon_pack: fab
+  link: https://github.com/xdevroey
 - icon: google-scholar
   icon_pack: ai
   link: https://scholar.google.com/citations?user=GTaILJgAAAAJ

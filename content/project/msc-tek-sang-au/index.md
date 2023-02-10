@@ -33,7 +33,7 @@ image:
 #   icon: twitter
 
 url_code: ""
-url_pdf: ""
+url_pdf: "https://researchportal.unamur.be/en/studentTheses/towards-crash-reproduction-benchmark-augmentation-using-mutation-"
 url_slides: ""
 url_video: ""
 

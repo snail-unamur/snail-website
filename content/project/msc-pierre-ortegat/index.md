@@ -33,7 +33,7 @@ image:
 #   icon: twitter
 
 url_code: ""
-url_pdf: ""
+url_pdf: "https://researchportal.unamur.be/en/studentTheses/génération-de-tests-unitaires-pour-programmes-python"
 url_slides: ""
 url_video: ""
 

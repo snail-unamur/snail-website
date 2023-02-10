@@ -33,7 +33,7 @@ image:
 #   icon: twitter
 
 url_code: ""
-url_pdf: ""
+url_pdf: "https://researchportal.unamur.be/en/studentTheses/reverse-engineering-variability-for-configurable-systems-using-fo"
 url_slides: ""
 url_video: ""
 

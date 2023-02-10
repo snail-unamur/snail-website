@@ -33,7 +33,7 @@ image:
 #   icon: twitter
 
 url_code: "https://github.com/snail-unamur/LASoT"
-url_pdf: ""
+url_pdf: "https://researchportal.unamur.be/en/studentTheses/learning-to-assert-in-software-testing-using-mutants"
 url_slides: ""
 url_video: ""
 

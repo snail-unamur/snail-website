@@ -5,8 +5,8 @@ title: "Defining software debt, an expanded and multidimensional view of socio-t
 summary: "This project aims at developing a holistic approach to socio-technical debt by designing a framework for helping developers and managers to address software debt and prioritize mitigating actions in an industrial context."
 authors:
   - nicolas-riquet
-  - xavier-devroey
   - benoit-vanderose
+  - xavier-devroey
 tags:
   - PhD Thesis
   - Ongoing

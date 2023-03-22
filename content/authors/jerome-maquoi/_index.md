@@ -23,6 +23,8 @@ bio:
 # List each interest with a dash
 interests:
   - Software Testing
+  - Sustainability
+  - Energy Consumption
 
 # education:
 #   courses:

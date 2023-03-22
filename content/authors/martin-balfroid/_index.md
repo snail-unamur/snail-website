@@ -24,6 +24,7 @@ bio:
 interests:
   - Machine Learning
   - Test Case Generation
+  - Large Language Model
 
 # # education:
 #   courses:

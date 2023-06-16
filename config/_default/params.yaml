@@ -16,7 +16,7 @@ site_type: Organization
 local_business_type: ''
 org_name: ''
 description: The Software Normalization Assessment and Improvement Lab wesite.
-twitter: 'snail_unamur'
+# twitter: 'snail_unamur'
 
 # Contact (edit or remove options as required)
 
@@ -38,10 +38,10 @@ directions: "Faculté d'Informatique, 4th floor"
 #   - 'Wednesday 09:00 to 10:00'
 # appointment_url: 'https://calendly.com'
 contact_links:
-  - icon: twitter
-    icon_pack: fab
-    name: 'Follow us on Twitter'
-    link: 'https://twitter.com/snail_unamur'
+# - icon: twitter
+#   icon_pack: fab
+#   name: 'Follow us on Twitter'
+#   link: 'https://twitter.com/snail_unamur'
   - icon: github
     icon_pack: fab
     name: 'Find us on GitHub'

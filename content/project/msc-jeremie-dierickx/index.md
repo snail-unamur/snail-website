@@ -1,15 +1,17 @@
 ---
 # Documentation: https://wowchemy.com/docs/managing-content/
 
-title: "Automated Synthesis of Vulnerabilities for Security Tools Assessment"
+title: "Training machine learning models for vulnerability prediction and injection using datasets of vulnerability-inducing commits"
 summary: ""
 authors: []
 authors: 
  - jeremie-dierickx
 tags: 
   - Msc Thesis
-  - Ongoing
+  - Finished
   - Cybersecurity Testing
+  - Machine Learning
+  - Mining Software Repository
 date: 2022-11-04T10:14:16+01:00
 
 # Optional external URL for project (replaces project detail page).
@@ -19,7 +21,7 @@ external_link: ""
 # To use, add an image named `featured.jpg/png` to your page's folder.
 # Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
 image:
-  caption: ""
+  caption: "Training and testing on vulnerability inducing and vulnerability fixing commits"
   focal_point: ""
   preview_only: false
 
@@ -43,3 +45,5 @@ url_video: ""
 #   Otherwise, set `slides = ""`.
 slides: ""
 ---
+
+Multiple techniques exist to find vulnerabilities in code, such as static analysis and machine learning. Although machine learning techniques are promising, they need to learn from a large quantity of examples. Since there is not such large quantity of data for vulnerable code, vulnerability injection techniques have been developed to create them. Both vulnerability prediction and injection techniques based on machine learning usually use the same kind of data, thus pairs of vulnerable code, just before the fix, and their fixed version. However, using the fixed version is not realistic, as the vulnerability has been introduced on a different version of the code that may be way different from the fixed version. Therefore, we suggest the use of pairs of code that has introduced the vulnerability and its previous version. Indeed, this is more realistic, but this is only relevant if machine learning techniques can properly learn from it and the patterns learned are significantly different than with the usual method. To make sure of this, we trained vulnerability prediction models for both kind of data and compared their performance. Our analysis showed a model trained on pairs of vulnerable code and their fixed version is unable to predict vulnerabilities from the vulnerability introducing versions. The same goes for the opposite, despite both models are able to properly learn from their data and detect vulnerabilities on similar data. Therefore, we conclude that the use of vulnerability introducing codes for machine learning training is more relevant than the fixed versions.

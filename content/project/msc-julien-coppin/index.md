@@ -1,7 +1,7 @@
 ---
 # Documentation: https://wowchemy.com/docs/managing-content/
 
-title: "Continuous Integration"
+title: "Automated Test Case Generation and Continuous Integration"
 summary: ""
 authors: 
  - julien-coppin
@@ -9,6 +9,7 @@ tags:
   - Msc Thesis
   - Ongoing
   - Continuous Integration
+  - Search-Based Software Testing
 categories: []
 date: 2022-11-04T10:14:15+01:00
 

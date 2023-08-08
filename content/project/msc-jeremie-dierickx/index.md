@@ -34,7 +34,7 @@ image:
 #   icon: twitter
 
 url_code: ""
-url_pdf: ""
+url_pdf: "https://researchportal.unamur.be/en/studentTheses/training-machine-learning-models-for-vulnerability-prediction-and"
 url_slides: ""
 url_video: ""
 

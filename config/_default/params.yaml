@@ -38,10 +38,10 @@ directions: "Faculté d'Informatique, 4th floor"
 #   - 'Wednesday 09:00 to 10:00'
 # appointment_url: 'https://calendly.com'
 contact_links:
-# - icon: twitter
-#   icon_pack: fab
-#   name: 'Follow us on Twitter'
-#   link: 'https://twitter.com/snail_unamur'
+  - icon: hashtag
+    icon_pack: fas
+    name: 'Follow us on Bluesky'
+    link: 'https://bsky.app/profile/snail-unamur.bsky.social'
   - icon: github
     icon_pack: fab
     name: 'Find us on GitHub'

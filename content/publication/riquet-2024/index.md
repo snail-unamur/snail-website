@@ -29,7 +29,7 @@ tags:
 # links:
 # - name: ""
 #   url: ""
-url_pdf: 'https://xdevroey.be/publication/riquet-2022/riquet-2022.pdf'
+url_pdf: 'https://xdevroey.be/publication/riquet-2024/riquet-2024.pdf'
 url_code: 
 url_dataset: 'https://zenodo.org/doi/10.5281/zenodo.10518270'
 url_poster: ''

@@ -39,12 +39,12 @@ interests:
 #   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
 #   form "mailto:your-email@example.com" or "#contact" for contact widget.
 social:
-- icon: globe
-  icon_pack: fas
-  link: https://researchportal.unamur.be/fr/persons/abiola-chokki
-- icon: envelope
-  icon_pack: fas
-  link: 'mailto:abiola-paterne.chokki@unamur.be'  # For a direct email link, use "mailto:test@example.org".
+#- icon: globe
+#  icon_pack: fas
+#  link: https://researchportal.unamur.be/fr/persons/abiola-chokki
+#- icon: envelope
+#  icon_pack: fas
+#  link: 'mailto:abiola-paterne.chokki@unamur.be'  # For a direct email link, use "mailto:test@example.org".
 - icon: linkedin
   icon_pack: fab
   link: https://www.linkedin.com/in/paternechokki/
@@ -64,5 +64,5 @@ highlight_name: false
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-- Alumni
+- Former Members
 ---

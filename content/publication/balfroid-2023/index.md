@@ -8,7 +8,7 @@ authors:
     - benoit-vanderose
     - xavier-devroey
 date: 2023-04-16
-doi: ""
+doi: "10.1109/ICSTW58534.2023.00074"
 
 # Schedule page publish date (NOT publication's date).
 publishDate: 2023-04-11T08:16:53+02:00

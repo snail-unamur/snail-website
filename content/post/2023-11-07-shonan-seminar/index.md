@@ -1,17 +1,17 @@
 ---
 # Documentation: https://wowchemy.com/docs/managing-content/
 
-title: "Best poster award for Guillaume Nguyen at the 3rd edition of Women and Girls in Science"
+title: "Shonan seminar: DevOps for Cyber-physical Systems"
 subtitle: ""
 summary: ""
-authors: 
+authors:
     - xavier-devroey
 tags: 
     - Academic Life
-    - Award
+    - Public Speaking
 categories: []
-date: 2023-02-09T12:00:00+02:00
-lastmod: 2023-04-24T18:32:47+02:00
+date: 2023-11-07T20:00:00+02:00
+lastmod: 2023-11-07T20:00:00+02:00
 featured: false
 draft: false
 
@@ -32,4 +32,4 @@ projects:
     - cyberexcellence
 ---
 
-Two PhD students from the faculty each won a best poster award at the 3rd edition of Women and Girls in Science! One of the two is Guillaume Nguyen, PhD student of the SNAIL team and funded by the CyberExcellence project of the Walloon region. He won a prize for his poster Identification of Cyber Physical System (CPS) & Orchestration of fuzzing testing.
+Last November 2023, I took part in the [Shonan seminar on the use of DevOps approaches for cyber-physical systems](https://shonan.nii.ac.jp/seminars/204/). It was an intense but interesting week, with 30 researchers from Japan, America and Europe, experts in software engineering, DevOps approaches and cyber-physical systems. In addition to the connections between research teams and future collaborations, the seminar helped to define a common vision of what a DevOps approach for cyber-physical systems is. This vision will be embodied in a book, to be written in the months following the seminar.

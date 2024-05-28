@@ -22,9 +22,9 @@ bio:
 
 # List each interest with a dash
 interests:
-  - Machine Learning
-  - Test Case Generation
-  - Large Language Model
+  - Large Language Models
+  - Code Summarization
+  - Developer Onboarding
 
 # # education:
 #   courses:
@@ -49,6 +49,9 @@ social:
   - icon: linkedin
     icon_pack: fab
     link: 'https://www.linkedin.com/in/balfroid-martin-2159b7157'
+  - icon: google-scholar
+    icon_pack: fas
+    link: https://scholar.google.com/citations?user=12vnWMoAAAAJ&hl=fr&oi=ao
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: ""

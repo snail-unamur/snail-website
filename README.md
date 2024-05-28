@@ -22,7 +22,8 @@ Each user must be part of one of the following user groups (`user_groups:` in th
 - Researchers
 - PhD Students
 - MSc Students
-- Alumni
+- Visitors
+- Former Members
 
 More groups can be added in the [content/people/people.md](content/people/people.md) file.
 

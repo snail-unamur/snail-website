@@ -20,6 +20,7 @@ content:
   - Researchers
   - PhD Students
   - MSc Students
+  - Visitors
   - Former Members
 #  - Alumni
 design:

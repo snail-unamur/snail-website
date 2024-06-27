@@ -57,3 +57,5 @@ Overall, this Master’s Thesis uncovers 2 new contributions:
 2. It is possible to automatically infer RESTful API specifications by leveraging Large Language Models.
 
 A replication package with the implementation and evaluation data is available at the following [GitHub repository](https://github.com/alixdecr/MutGPT).
+
+*Internship done at the [SnT](https://www.uni.lu/snt-en/) of the [University of Luxembourg](https://www.uni.lu/en/), Luxembourg.*

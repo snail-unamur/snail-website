@@ -1,13 +1,16 @@
 ---
 # Documentation: https://wowchemy.com/docs/managing-content/
 
-title: "FuzzE: Fuzzing for UI exploratory testing in JavaScript at Odoo"
+title: "Fuzzing highly-configurable Web user interface: a Odoo case study"
 summary: ""
 authors: 
     - gabriel-benoit
 tags:
   - Msc Thesis
-  - Ongoing
+  - Finished
+  - Fuzzing
+  - Odoo
+  - Software Testing
 categories: []
 date: 2023-09-16T14:48:38+02:00
 
@@ -18,7 +21,7 @@ external_link: ""
 # To use, add an image named `featured.jpg/png` to your page's folder.
 # Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
 image:
-  caption: ""
+  caption: "Action research approach"
   focal_point: ""
   preview_only: false
 
@@ -42,3 +45,7 @@ url_video: ""
 #   Otherwise, set `slides = ""`.
 slides: ""
 ---
+
+Since many years, Odoo, a company providing business management services, is constantly expanding its scope and developing the complexity of its software, a web application. In response to that complexity, the introduction of automated testing techniques seems to be the next evolution of the testing tools already available to them. In the past, other tools for automatically testing web interfaces have been created, but often with limitations. This thesis explores the techniques that can be applied to implement fuzzing on the Odoo software web interface. It is shown that some methods do not seem applicable at present, while others work very well. A viable method will be proposed and implemented, and different configurations of the method will be evaluated. Ultimately, it will be shown that some weaknesses are present in the proposed method, but that future work in this direction can be done.
+
+*Internship done at [Odoo](https://www.odoo.com/), Belgium.*

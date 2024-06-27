@@ -1,13 +1,15 @@
 ---
 # Documentation: https://wowchemy.com/docs/managing-content/
 
-title: "EnerWe: Comparison of energy efficiency of web content management systems"
+title: "Optimizing the energy consumption of showcase sites: a comparative analysis of WordPress and static sites"
 summary: ""
 authors: 
     - ludovic-evrard
 tags:
   - Msc Thesis
-  - Ongoing
+  - Finished
+  - Sustainability
+  - Energy Consumption
 categories: []
 date: 2023-09-16T14:48:38+02:00
 
@@ -18,7 +20,7 @@ external_link: ""
 # To use, add an image named `featured.jpg/png` to your page's folder.
 # Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
 image:
-  caption: ""
+  caption: "Extrapolation of cumulative energy consumption by type on a large website"
   focal_point: ""
   preview_only: false
 
@@ -42,3 +44,5 @@ url_video: ""
 #   Otherwise, set `slides = ""`.
 slides: ""
 ---
+
+Energy efficiency in computing is an important subject that is increasingly being addressed by researchers and developers. Nowadays, the majority of websites are built using the Wordpress CMS, while other developers prefer to use more secure and energy-efficient site generators. This study focuses on the server-side energy consumption of these two methods of creating websites. A detailed analysis of the results will make it possible to identify borderline cases and suggest recommendations on the best technology to use, depending on the type of project.

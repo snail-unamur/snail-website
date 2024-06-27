@@ -22,8 +22,9 @@ bio:
 
 # List each interest with a dash
 interests:
-- Education
-- Cognitive Bias
+- Source Code
+- DevEx
+- Mobile Development
 
 # # education:
 #   courses:
@@ -66,6 +67,5 @@ highlight_name: false
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-- MSc Students
-#- Alumni
+- Alumni
 ---

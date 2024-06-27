@@ -49,3 +49,5 @@ slides: ""
 This thesis explores the idea of applying genetic improvement in the aim of injecting vulnerabilities into programs. Generating vulnerabilities automatically in this manner would allow creating datasets of vulnerable programs. This would, in turn, help training machine-learning models to detect vulnerabilities more efficiently.
 This idea was put to the test by implementing VulGr, a modified version of the framework dedicated to genetic improvement named PyGGi. VulGr itself uses CodeQL, a static code analyser, offering a new approach to statical detection of vulnerabilities. VulGr’s end goal was to use CodeQL to inject vulnerabilities into programs of the Vul4J dataset.
 This experiment proved unsuccessful, CodeQL lacking accuracy and being too time-consuming to produce concrete results in an acceptable time span (less than 72 hours). However, the general approach and VulGr still retain their relevancy for future uses as CodeQL is an ongoing community effort promising new updates fixing the issues mentioned.
+
+*Internship done at the [SnT](https://www.uni.lu/snt-en/) of the [University of Luxembourg](https://www.uni.lu/en/), Luxembourg.*

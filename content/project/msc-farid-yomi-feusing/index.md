@@ -7,7 +7,10 @@ authors:
     - farid-yomi-feusing
 tags:
   - Msc Thesis
-  - Ongoing
+  - Finished
+  - Open Data
+  - Visualisation
+  - Large Language Model
 categories: []
 date: 2023-09-16T14:48:39+02:00
 
@@ -18,7 +21,7 @@ external_link: ""
 # To use, add an image named `featured.jpg/png` to your page's folder.
 # Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
 image:
-  caption: ""
+  caption: "Detailed pipeline of the Aladdin solution"
   focal_point: ""
   preview_only: false
 
@@ -42,3 +45,22 @@ url_video: ""
 #   Otherwise, set `slides = ""`.
 slides: ""
 ---
+
+This dissertation explores the impact of using natural language in the visualisation of
+open datasets, focusing on the design and evaluation of Aladdin, a system based on the DSR
+approach. Aladdin uses advanced natural language processing techniques to transform text
+queries into interactive data visualisations. 
+
+The methodological approach details the development of Aladdin through three main
+DSR cycles: the Rigor Cycle for the theoretical analysis and definition of objectives, the Design
+Cycle for the design and implementation of the solution, and the Relevance Cycle for evaluation
+in real-life conditions. The system is based on React for the user interface, MongoDB for data
+management and FastAPI for a robust API, with the GPT-4 model for the semantic analysis of
+queries.
+
+The evaluation of Aladdin confirms its role in improving the accessibility and efficiency of
+open data visualisation, with positive feedback on the accuracy of interpretations and the quality
+of visualisations. However, the management of complex queries needs to be strengthened, and
+the shortcomings of the LLM support need to be remedied. Future prospects include integrating
+with other analytical platforms and improving user interaction, while extending Aladdin's
+accessibility via OpenData portals to increase its functionality and adoption.

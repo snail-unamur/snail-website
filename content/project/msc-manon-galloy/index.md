@@ -33,7 +33,7 @@ image:
 #   icon: twitter
 
 url_code: ""
-url_pdf: ""
+url_pdf: "https://researchportal.unamur.be/en/studentTheses/selfbehave-generating-a-behaviour-driven-development-dataset-usin"
 url_slides: ""
 url_video: ""
 

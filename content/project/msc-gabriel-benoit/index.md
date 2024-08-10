@@ -33,8 +33,8 @@ image:
 #   icon_pack: fab
 #   icon: twitter
 
-url_code: ""
-url_pdf: ""
+url_code: "https://github.com/snail-unamur/fuzze-evaluation"
+url_pdf: "https://researchportal.unamur.be/en/studentTheses/fuzzing-highly-configurable-web-user-interface"
 url_slides: ""
 url_video: ""
 

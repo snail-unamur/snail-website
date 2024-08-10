@@ -20,7 +20,7 @@ external_link: ""
 # To use, add an image named `featured.jpg/png` to your page's folder.
 # Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
 image:
-  caption: "Extrapolation of cumulative energy consumption by type on a large website"
+  caption: "Optimizing the energy consumption of showcase sites: comparative analysis between WordPress sites and static sites"
   focal_point: ""
   preview_only: false
 
@@ -33,7 +33,7 @@ image:
 #   icon: twitter
 
 url_code: ""
-url_pdf: ""
+url_pdf: "https://researchportal.unamur.be/en/studentTheses/optimisation-de-la-consommation-énergétique-de-sites-vitrines"
 url_slides: ""
 url_video: ""
 

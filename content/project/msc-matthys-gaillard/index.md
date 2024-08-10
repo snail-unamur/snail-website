@@ -34,7 +34,7 @@ image:
 #   icon: twitter
 
 url_code: ""
-url_pdf: ""
+url_pdf: "https://researchportal.unamur.be/en/studentTheses/code-mr-une-application-en-réalité-mixte-au-service-de-la-compréh"
 url_slides: ""
 url_video: ""
 

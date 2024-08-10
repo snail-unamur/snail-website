@@ -34,8 +34,8 @@ image:
 #   icon_pack: fab
 #   icon: twitter
 
-url_code: ""
-url_pdf: ""
+url_code: "https://github.com/snail-unamur/EdgeRunner"
+url_pdf: "https://researchportal.unamur.be/en/studentTheses/exploiter-le-language-server-protocol-pour-créer-un-éditeur-de-co"
 url_slides: ""
 url_video: ""
 

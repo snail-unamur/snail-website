@@ -1,15 +1,18 @@
 ---
 # Documentation: https://wowchemy.com/docs/managing-content/
 
-title: "TesArt: Testing for digital art"
+title: "Green Coding"
 summary: ""
-authors: 
-    - david-tang
-tags:
+authors:
+ - francois-bechet
+tags: 
   - Msc Thesis
   - Ongoing
+  - Sustainability
+  - Energy Consumption
+  - Green Coding
 categories: []
-date: 2023-09-16T14:48:39+02:00
+date: 2024-09-29T10:47:40+02:00
 
 # Optional external URL for project (replaces project detail page).
 external_link: ""
@@ -43,4 +46,4 @@ url_video: ""
 slides: ""
 ---
 
-The goal of the thesis is to devise an approach for automated test execution for digital performances developed using creative coding.
+These days, IT is increasingly resource-intensive, both in terms of hardware and energy consumption. As a result, the sustainable side of software is an increasingly studied topic in the software engineering community. However, developers have little knowledge of how to write and develop software in a more sustainable way. The aim of this thesis is to find out how to help developers write green code. The more precise subject is to be defined with the developers. The internship is done in the Software Engineering Research Group (SERG) at TU Delft in the Netherlands.

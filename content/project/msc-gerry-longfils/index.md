@@ -1,15 +1,18 @@
 ---
 # Documentation: https://wowchemy.com/docs/managing-content/
 
-title: "TesArt: Testing for digital art"
+title: "Test for Virtual and Augmented Reality"
 summary: ""
 authors: 
-    - david-tang
-tags:
+ - gerry-longfils
+tags: 
   - Msc Thesis
   - Ongoing
+  - Augmented Reality
+  - Virtual Reality
+  - Software Testing
 categories: []
-date: 2023-09-16T14:48:39+02:00
+date: 2024-09-29T10:47:41+02:00
 
 # Optional external URL for project (replaces project detail page).
 external_link: ""
@@ -43,4 +46,4 @@ url_video: ""
 slides: ""
 ---
 
-The goal of the thesis is to devise an approach for automated test execution for digital performances developed using creative coding.
+There exist very few automated testing frameworks for virtual and augmented reality-based applications. The goal of this master thesis is to define (and implement) such a framework for specific augmented reality technology (to be defined). The internship is done at the University of Rennes, France.

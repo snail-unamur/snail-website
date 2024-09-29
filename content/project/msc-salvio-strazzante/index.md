@@ -1,15 +1,17 @@
 ---
 # Documentation: https://wowchemy.com/docs/managing-content/
 
-title: "TesArt: Testing for digital art"
+title: "Software Testing at Odoo"
 summary: ""
 authors: 
-    - david-tang
-tags:
+ - salvio-strazzante
+tags: 
   - Msc Thesis
   - Ongoing
+  - Software Testing
+  - University Industry Collaboration
 categories: []
-date: 2023-09-16T14:48:39+02:00
+date: 2024-09-29T10:47:40+02:00
 
 # Optional external URL for project (replaces project detail page).
 external_link: ""
@@ -43,4 +45,4 @@ url_video: ""
 slides: ""
 ---
 
-The goal of the thesis is to devise an approach for automated test execution for digital performances developed using creative coding.
+Odoo is a highly-configurable web-based ERP for various management tasks (CRM, inventory management, sales, invoicing, etc.) for small and medium-sized businesses. Odoo is developed mainly in Python and Javascript. This project will involve working with Odoo developers on one of the following topics at the intersection of Continuous Integration and Software Testing.

@@ -1,15 +1,19 @@
 ---
 # Documentation: https://wowchemy.com/docs/managing-content/
 
-title: "TesArt: Testing for digital art"
+title: "Using the sound dimension in code review tools"
 summary: ""
 authors: 
-    - david-tang
-tags:
+ - benjamin-pan
+ - simon-dourte
+tags: 
   - Msc Thesis
   - Ongoing
+  - DevEx
+  - Debugging
+  - Code Review
 categories: []
-date: 2023-09-16T14:48:39+02:00
+date: 2024-09-29T12:08:19+02:00
 
 # Optional external URL for project (replaces project detail page).
 external_link: ""
@@ -43,4 +47,4 @@ url_video: ""
 slides: ""
 ---
 
-The goal of the thesis is to devise an approach for automated test execution for digital performances developed using creative coding.
+The use of music to create favorable conditions for development and programming has become common practice (cf. the use of the lo-fi genre and the emergence of the “code-fi” musical genre). Similarly, the use of the sound dimension of a user experience is commonplace in many fields (video games, various control terminals, etc.). The aim of this thesis is to investigate how the sound dimension could be integrated into modern development tools to encourage concentration, attention and/or motivation, depending on the characteristics of the code being worked through (more complex code regions, repetitive tasks, etc.), the context outside the developer (time of day, weather, etc.) and personal preferences.

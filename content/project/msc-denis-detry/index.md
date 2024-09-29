@@ -1,15 +1,17 @@
 ---
 # Documentation: https://wowchemy.com/docs/managing-content/
 
-title: "TesArt: Testing for digital art"
+title: "Augmented Reality Performance Testing"
 summary: ""
 authors: 
-    - david-tang
-tags:
+ - denis-detry
+tags: 
   - Msc Thesis
   - Ongoing
+  - Augmented Reality
+  - Performance Testing
 categories: []
-date: 2023-09-16T14:48:39+02:00
+date: 2024-09-29T10:47:40+02:00
 
 # Optional external URL for project (replaces project detail page).
 external_link: ""
@@ -43,4 +45,4 @@ url_video: ""
 slides: ""
 ---
 
-The goal of the thesis is to devise an approach for automated test execution for digital performances developed using creative coding.
+The goal of this thesis is to design and implement an augmented reality performance testing framework.

@@ -1,15 +1,18 @@
 ---
 # Documentation: https://wowchemy.com/docs/managing-content/
 
-title: "TesArt: Testing for digital art"
+title: "Optimized development interface to reduce the developer's cognitive load during debugging"
 summary: ""
 authors: 
-    - david-tang
-tags:
+ - antonin-sohy
+tags: 
   - Msc Thesis
   - Ongoing
+  - DevEx
+  - Debugging
+  - Code Quality
 categories: []
-date: 2023-09-16T14:48:39+02:00
+date: 2024-09-29T12:08:19+02:00
 
 # Optional external URL for project (replaces project detail page).
 external_link: ""
@@ -43,4 +46,4 @@ url_video: ""
 slides: ""
 ---
 
-The goal of the thesis is to devise an approach for automated test execution for digital performances developed using creative coding.
+While workstations (including monitors, keyboard and mouse as peripherals) have long been the most common installation for computer-intensive employees, the arrival of powerful, versatile tablets and telephones has been shaking up this organization of work in many professions for some years now. Software development, on the other hand, remains very attached to this type of installation. The aim of this thesis is therefore to explore the extent to which recent advances in software engineering (dockerization, static code analysis, etc.) could enable the development of a nomadic code review environment as efficient as the traditional model.

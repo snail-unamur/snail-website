@@ -1,15 +1,18 @@
 ---
 # Documentation: https://wowchemy.com/docs/managing-content/
 
-title: "TesArt: Testing for digital art"
+title: "Software testing exercises gamification"
 summary: ""
 authors: 
-    - david-tang
-tags:
+ - thibaut-berg
+tags: 
   - Msc Thesis
   - Ongoing
+  - Software Testing
+  - Education
+  - Gamification
 categories: []
-date: 2023-09-16T14:48:39+02:00
+date: 2024-09-29T10:47:40+02:00
 
 # Optional external URL for project (replaces project detail page).
 external_link: ""
@@ -43,4 +46,4 @@ url_video: ""
 slides: ""
 ---
 
-The goal of the thesis is to devise an approach for automated test execution for digital performances developed using creative coding.
+The new Verification and Validation (V&V) course includes exercise sessions in which students write tests for [small Java programs](https://github.com/UNamurCSFaculty/INFOM124-Software-verification-and-validation). These exercises use [Andy](https://github.com/cse1110/andy) to receive feedback in the form of coverage indicators, mutation score and number of successful meta-tests. The aim of this thesis is to apply a gamification approach to these exercises in order to increase student involvement: TEGa, you can't help it!

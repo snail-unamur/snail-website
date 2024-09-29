@@ -1,15 +1,16 @@
 ---
 # Documentation: https://wowchemy.com/docs/managing-content/
 
-title: "TesArt: Testing for digital art"
+title: "Socio-technical Debt"
 summary: ""
 authors: 
-    - david-tang
-tags:
+ - nicolas-baltofski
+tags: 
   - Msc Thesis
   - Ongoing
+  - Socio-technical Debt
 categories: []
-date: 2023-09-16T14:48:39+02:00
+date: 2024-09-29T12:08:19+02:00
 
 # Optional external URL for project (replaces project detail page).
 external_link: ""
@@ -43,4 +44,4 @@ url_video: ""
 slides: ""
 ---
 
-The goal of the thesis is to devise an approach for automated test execution for digital performances developed using creative coding.
+This thesis seeks to explore different aspects of socio-technical debt in the development cycle.

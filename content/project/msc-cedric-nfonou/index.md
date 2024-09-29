@@ -1,15 +1,17 @@
 ---
 # Documentation: https://wowchemy.com/docs/managing-content/
 
-title: "TesArt: Testing for digital art"
+title: "Multi-dimensional, multi-platform framework for web development"
 summary: ""
 authors: 
-    - david-tang
-tags:
+ - cedric-nfonou
+tags: 
   - Msc Thesis
   - Ongoing
+  - Development Framework
+  - Web Development
 categories: []
-date: 2023-09-16T14:48:39+02:00
+date: 2024-09-29T10:47:41+02:00
 
 # Optional external URL for project (replaces project detail page).
 external_link: ""
@@ -43,4 +45,4 @@ url_video: ""
 slides: ""
 ---
 
-The goal of the thesis is to devise an approach for automated test execution for digital performances developed using creative coding.
+In this thesis, the student will be asked to design a web framework that will enable a developer to design an application that can be deployed as a website, desktop application, mobile application and immersive augmented and virtual reality application. One of the aspects that will be particularly studied is the framework's ability to offer simple, explicit and intuitive commands for managing interface elements within 2D and 3D environments.

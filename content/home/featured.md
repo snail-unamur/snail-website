@@ -9,7 +9,7 @@ content:
   filters:
     author: ""
     category: ""
-    exclude_featured: false
+    featured_only: true
     publication_type: ""
     tag: ""
   offset: 0
@@ -21,6 +21,6 @@ design:
   #   2 = Compact
   #   3 = Card
   #   4 = Citation (publication only)  
-  view: 2
+  view: 3$
 
 ---

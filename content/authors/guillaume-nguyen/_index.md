@@ -48,9 +48,9 @@ social:
   - icon: linkedin
     icon_pack: fab
     link: 'https://www.linkedin.com/in/guillaume-nguyen-6275a2137/'
-- icon: github
-  icon_pack: fab
-  link: https://github.com/sabredefable
+  - icon: github
+    icon_pack: fab
+    link: https://github.com/sabredefable
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: ""

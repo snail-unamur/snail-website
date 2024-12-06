@@ -1,134 +1,129 @@
 # SITE SETUP
-# Guide: https://wowchemy.com/docs/getting-started/
-# Documentation: https://wowchemy.com/docs/
+# Guide: https://docs.hugoblox.com/tutorial/
+# Documentation: https://docs.hugoblox.com/
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
 # Appearance
 
-theme: unamur # can be modified in data/themes/unamur.toml
-day_night: true
-font: native
-font_size: M
+appearance:
+  theme: unamur
+  font: native
+  font_size: M
+  mode: light
 
 # SEO
 
-site_type: Organization
-local_business_type: ''
-org_name: ''
-description: The Software Normalization Assessment and Improvement Lab wesite.
-# twitter: 'snail_unamur'
-
-# Contact (edit or remove options as required)
-
-email: snail.info@unamur.be
-#phone: +32 (0)81 72 52 52
-address:
-  street: rue Grandgagnage 21
-  city: Namur
-  #region: CA
-  postcode: 'BE-5000'
-  country: Belgium
-  country_code: BE
-coordinates:
-  latitude: '50.46584411773904'
-  longitude: '4.857874265493509'
-directions: "Faculté d'Informatique, 4th floor"
-# office_hours:
-#   - 'Monday 10:00 to 13:00'
-#   - 'Wednesday 09:00 to 10:00'
-# appointment_url: 'https://calendly.com'
-contact_links:
-  - icon: hashtag
-    icon_pack: fas
-    name: 'Follow us on Bluesky'
-    link: 'https://bsky.app/profile/snail-unamur.bsky.social'
-  - icon: github
-    icon_pack: fab
-    name: 'Find us on GitHub'
-    link: 'http://github.com/snail-unamur'
+marketing:
+  seo:
+    site_type: ResearchOrganization
+    org_name: 'SNAIL'
+    description: 'The Software Normalization Assessment and Improvement Lab wesite.'
+    # twitter: 'snail_unamur'
+  analytics:
+    google_analytics: ''
+    baidu_tongji: ''
+    google_tag_manager: ''
+    microsoft_clarity: ''
+  verification:
+    google: ''
+    baidu: ''
 
 # Site header
 
-main_menu:
-  enable: true
-  align: r
-  show_logo: true
-  show_language: false
-  show_day_night: true
-  show_search: true
-  highlight_active_link: false
+header:
+  navbar:
+    enable: true
+    # Choose a built-in navigation blox or create your own
+    blox: "navbar"
+    # Align menu links: `left`, `center`, or `right`
+    align: r
+    # Fix the navigation bar to the top of the page
+    fixed_to_top: true
+    logo:
+      # Logo text
+      text: "SNAIL Team"
+      # Logo filename in `assets/media/` folder
+      #filename: "logo.svg"
+    show_logo: true
+    show_language: false
+    show_day_night: true
+    # Let the user choose between light or dark mode?
+    show_theme_chooser: true
+    show_search: true
+    highlight_active_link: true
+
+# Site footer
+
+footer:
+  copyright:
+    notice: '© {year} SNAIL. This work is licensed under {license}'
+    license:
+      enable: true
+      allow_derivatives: false
+      share_alike: true
+      allow_commercial: false
 
 # Localization
 
-date_format: 'Jan 2, 2006'
-time_format: '15:04'
-address_format: fr-fr
+locale:
+  date_format: 'Jan 2, 2006'
+  time_format: '15:04'
+  address_format: fr-fr
 
 # Site features
 
-highlight: false
-math: false
-diagram: false
-privacy_pack: false
-show_related:
-  post: true
-  project: true
-  publication: true
-  talk: true
-reading_time: true
-section_pager: false
-sharing: true
-copyright_license:
-  enable: false
-  allow_derivatives: false
-  share_alike: true
-  allow_commercial: false
-  notice: 'This work is licensed under {license}'
-plugins_js: []
-avatar:
-  gravatar: false
-  shape: circle
+features:
+  syntax_highlighter:
+    enable: false
+    extra_languages:
+      - r
+      - latex
+  math:
+    enable: false
+  privacy_pack:
+    enable: false
+  repository:
+    url: 'http://github.com/snail-unamur/snail-website'
+    content_dir: content
+    branch: main
+  avatar:
+    gravatar: false
+    shape: circle
+  comment:
+    provider: ''
+    disqus:
+      shortname: ''
+      show_count: true
+    commento:
+      url: ''
+    giscus:
+      repo: ''
+      repo_id: ''
+      category: ''
+      category_id: ''
+  search:
+    provider: wowchemy
+    algolia:
+      app_id: ''
+      api_key: ''
+      index_name: ''
+      show_logo: false
+  map:
+    provider: 'mapnik'
+    api_key: ''
+    zoom: 15
+
+# Extensions
+
+extensions:
+  decap_cms:
+    branch: main
+    local_backend: false
+  academicons:
+    enable: true
+
+# Citation style
+
 publications:
   date_format: January 2006
   citation_style: apa
-projects:
-  post_view: 2
-  publication_view: 2
-  talk_view: 2
-comments:
-  provider: ''
-  commentable:
-    page: true
-    post: true
-    docs: true
-    project: true
-    publication: true
-    talk: true
-  disqus:
-    shortname: ''
-    show_count: true
-  commento:
-    url: ''
-search:
-  provider: wowchemy
-  algolia:
-    app_id: ''
-    api_key: ''
-    index_name: ''
-    show_logo: false
-map:
-  provider: mapnik
-  api_key: ''
-  zoom: 15
-marketing:
-  google_analytics: ''
-  google_tag_manager: ''
-  google_site_verification: ''
-  baidu_site_verification: ''
-  baidu_tongji: ''
-cms:
-  branch: main
-  local_backend: false
-icon:
-  pack:
-    ai: true

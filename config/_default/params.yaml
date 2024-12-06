@@ -9,6 +9,7 @@ appearance:
   theme: unamur
   font: native
   font_size: M
+  mode: light
 
 # SEO
 
@@ -27,44 +28,27 @@ marketing:
     google: ''
     baidu: ''
 
-# Contact (edit or remove options as required)
-
-email: snail.info@unamur.be
-#phone: +32 (0)81 72 52 52
-address:
-  street: rue Grandgagnage 21
-  city: Namur
-  #region: CA
-  postcode: 'BE-5000'
-  country: Belgium
-  country_code: BE
-coordinates:
-  latitude: '50.46584411773904'
-  longitude: '4.857874265493509'
-directions: "Faculté d'Informatique, 4th floor"
-# office_hours:
-#   - 'Monday 10:00 to 13:00'
-#   - 'Wednesday 09:00 to 10:00'
-# appointment_url: 'https://calendly.com'
-contact_links:
-  - icon: hashtag
-    icon_pack: fas
-    name: 'Follow us on Bluesky'
-    link: 'https://bsky.app/profile/snail-unamur.bsky.social'
-  - icon: github
-    icon_pack: fab
-    name: 'Find us on GitHub'
-    link: 'http://github.com/snail-unamur'
-
 # Site header
 
 header:
   navbar:
     enable: true
+    # Choose a built-in navigation blox or create your own
+    blox: "navbar"
+    # Align menu links: `left`, `center`, or `right`
     align: r
+    # Fix the navigation bar to the top of the page
+    fixed_to_top: true
+    logo:
+      # Logo text
+      text: "SNAIL Team"
+      # Logo filename in `assets/media/` folder
+      #filename: "logo.svg"
     show_logo: true
     show_language: false
     show_day_night: true
+    # Let the user choose between light or dark mode?
+    show_theme_chooser: true
     show_search: true
     highlight_active_link: true
 

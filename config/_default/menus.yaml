@@ -19,23 +19,22 @@ main:
   - name: MSc Thesis
     url: mscthesis
     weight: 40
-  - name: About SNAIL
-    url: '/aboutsnail/#about'
-    weight: 50
-    identifier: aboutsnail
-  - name: About
-    url: '/aboutsnail/#about'
-    weight: 60
-    parent: aboutsnail
   - name: News
-    url: '/aboutsnail/#news'
-    weight: 70
-    parent: aboutsnail
+    url: '/news'
+    weight: 45
+  - name: About SNAIL
+    url: '/about'
+    weight: 50
+    identifier: about
+  - name: About
+    url: '/about'
+    weight: 60
+    parent: about
   - name: Contact
-    url: '/aboutsnail/#contact'
+    url: '/about/#contact'
     weight: 80
-    parent: aboutsnail
+    parent: about
   - name: People
     url: '/people'
     weight: 90
-    parent: aboutsnail
+    parent: about

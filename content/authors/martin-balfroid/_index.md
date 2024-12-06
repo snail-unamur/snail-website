@@ -49,6 +49,9 @@ social:
   - icon: linkedin
     icon_pack: fab
     link: 'https://www.linkedin.com/in/balfroid-martin-2159b7157'
+- icon: github
+  icon_pack: fab
+  link: https://github.com/balfroim
   - icon: google-scholar
     icon_pack: fas
     link: https://scholar.google.com/citations?user=12vnWMoAAAAJ&hl=fr&oi=ao

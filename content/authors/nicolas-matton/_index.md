@@ -40,6 +40,9 @@ social:
 - icon: linkedin
   icon_pack: fab
   link: https://www.linkedin.com/in/nmatton/
+- icon: github
+  icon_pack: fab
+  link: https://github.com/nmatton
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: ""

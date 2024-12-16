@@ -34,7 +34,7 @@ image:
 #   icon: twitter
 
 url_code: ""
-url_pdf: ""
+url_pdf: "https://researchportal.unamur.be/en/studentTheses/aladdin-utilisation-du-langage-naturel-pour-faciliter-la-visualis"
 url_slides: ""
 url_video: ""
 

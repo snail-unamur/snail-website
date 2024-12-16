@@ -32,8 +32,8 @@ image:
 #   icon_pack: fab
 #   icon: twitter
 
-url_code: ""
-url_pdf: ""
+url_code: "https://github.com/snail-unamur/devops-dash-view-docker"
+url_pdf: "https://researchportal.unamur.be/en/studentTheses/impacts-et-défis-de-lintégration-dun-générateur-de-tests-dans-un-"
 url_slides: ""
 url_video: ""
 

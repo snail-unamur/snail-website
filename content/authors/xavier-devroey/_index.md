@@ -49,7 +49,7 @@ social:
 - icon: envelope
   icon_pack: fas
   link: 'mailto:xavier.devroey@unamur.be'  # For a direct email link, use "mailto:test@example.org".
-- icon: bluesky
+- icon: twitter
   icon_pack: fab
   link: https://bsky.app/profile/xdevroey.bsky.social
 - icon: github

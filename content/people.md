@@ -22,7 +22,7 @@ sections:
       # Show user's interests? (true/false)
       show_interests: true
       # Show user's role?
-      show_role: true
+      show_role: false
       # Show user's organizations/affiliations?
       show_organizations: false
   - block: people

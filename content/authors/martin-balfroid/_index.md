@@ -53,7 +53,7 @@ social:
     icon_pack: fab
     link: https://github.com/balfroim
   - icon: google-scholar
-    icon_pack: fas
+    icon_pack: ai
     link: https://scholar.google.com/citations?user=12vnWMoAAAAJ&hl=fr&oi=ao
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)

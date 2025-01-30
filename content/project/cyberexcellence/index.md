@@ -6,6 +6,7 @@ summary: "The CyberExcellence project started in January 2022 under the umbrella
 authors:
   - guillaume-nguyen
   - xavier-devroey
+  - antoine-sacre
 tags:
   - Funded
   - Ongoing

@@ -24,25 +24,29 @@ sections:
       subtitle: (but are far from limited to)
       text: 
       items:
-        - name: Agile methods
+        - name: Agile Methods
           description: 
           icon: people-group
           icon_pack: fas
-        - name: Software quality improvement 
+        - name: Software Quality Improvement 
           description:
           icon: arrows-spin
           icon_pack: fas
-        - name: Software testing
+        - name: Software Testing
           description:
           icon: bug
           icon_pack: fas
-        - name: 
+        - name: Developer Experience
           description:
-          icon: 
+          icon: laptop-code
           icon_pack: fas
         - name: AI for Software Engineering 
           description:
           icon: robot
+          icon_pack: fas
+        - name: Socio-technical Aspects
+          description:
+          icon: universal-access
           icon_pack: fas
   - block: contact
     id: contact

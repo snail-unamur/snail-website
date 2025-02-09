@@ -14,7 +14,7 @@ hero_media: logo-snail.png
 #   Display link(s) by specifying a URL and label below. Icon is optional for `cta`.
 #   Remove a link/note by deleting a cta/note block.
 cta:
-  url: '/aboutsnail/'
+  url: '/about'
   label: About our Lab
   icon_pack: fas
   icon: lightbulb

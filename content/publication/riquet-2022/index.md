@@ -6,7 +6,7 @@ authors:
   - nicolas-riquet
   - xavier-devroey
   - benoit-vanderose
-publication_types: ["1"]
+publication_types: ["paper-conference"]
 # 0 = Uncategorized
 # 1 = Conference paper
 # 2 = Journal article

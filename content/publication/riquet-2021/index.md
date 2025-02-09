@@ -45,8 +45,7 @@ image:
 projects:
 - phd-nicolas-riquet
 publishDate: '2021-12-03'
-publication_types:
-- '1'
+publication_types: ["paper-conference"]
 publication: "*20th Belgium-Netherlands Software Evolution Workshop, BENEVOL '21*"
 doi:
 ---

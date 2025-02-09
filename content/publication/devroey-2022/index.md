@@ -47,8 +47,7 @@ image:
 projects:
 - cyberexcellence
 publishDate: '2022-12-21T08:51:11.608025Z'
-publication_types:
-- '2'
+publication_types: ["article-journal"]
 abstract: Researchers and practitioners have designed and implemented various
   automated test case generators to support effective software testing. Such generators
   exist for various languages (e.g., Java, C#, or Python) and various platforms (e.g.,

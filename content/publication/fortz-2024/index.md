@@ -47,8 +47,7 @@ url_video:
 projects:
 - cyberexcellence
 publishDate: '2023-12-03T10:27:54.416422Z'
-publication_types:
-- '1'
+publication_types: ["paper-conference"]
 abstract: 'Mapping behaviours to the features they relate to is a prerequisite for
   variability-intensive systems (VIS) reverse engineering. Manually providing this
   whole mapping is labour-intensive. In black-box scenarios, only execution traces

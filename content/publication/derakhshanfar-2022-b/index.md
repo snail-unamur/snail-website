@@ -45,8 +45,7 @@ url_video: ''
 #   Otherwise, set `projects = []`.
 projects: []
 publishDate: '2022-10-18T06:07:30.235518Z'
-publication_types:
-- '2'
+publication_types: ["article-journal"]
 abstract: Search-based approaches have been used in the literature to automate the
   process of creating unit test cases. However, related work has shown that generated
   tests with high code coverage could be ineffective, i.e., they may not detect all

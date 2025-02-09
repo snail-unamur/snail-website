@@ -39,8 +39,7 @@ image:
 #   Otherwise, set `projects = []`.
 projects: []
 publishDate: '2022-10-06T13:58:49.429378Z'
-publication_types:
-- '2'
+publication_types: ["article-journal"]
 abstract: Search-based techniques have been widely used for white-box test generation.
   Many of these approaches rely on the approach level and branch distance heuristics
   to guide the search process and generate test cases with high line and branch coverage.

@@ -42,8 +42,7 @@ url_video: ''
 #   Otherwise, set `projects = []`.
 projects: []
 publishDate: '2024-05-29T08:22:29.416754Z'
-publication_types:
-- '1'
+publication_types: ["paper-conference"]
 abstract: "Multimodal interaction has been adopted across various platforms and devices, with supporting tools enhancing the developer experience in developing Multimodal Interfaces (MMI). While traditionally, these tools faced challenges balancing expressiveness and usability, recent progress in Natural Language Processing tends to mitigate this rule. However, adding multimodal interaction still remains challenging, especially when integrating the voice modality, and MMIs remain to be better integrated into today’s applications. To address these challenges, we introduce a Unity tool-based system named Ummi. Ummi allows developers to use their knowledge in Object-Oriented Programming to handle the expert knowledge required to create a MMI while allowing end users great flexibility in the natural language they can use to interact. Our contributions are: 1) the presentation of Ummi's architecture and its inherent concepts along with its open-source implementation, and 2) a successful evaluation of its usability for describing MMIs through the System Usability Scale questionnaire with twelve participants."
 publication: "*Companion of the 16th ACM SIGCHI Symposium on Engineering Interactive Computing Systems (EICS Companion '24)*"
 ---

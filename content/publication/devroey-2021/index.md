@@ -43,8 +43,7 @@ image:
 #   Otherwise, set `projects = []`.
 projects: []
 publishDate: '2021-07-12T06:34:59.633930Z'
-publication_types:
-- '1'
+publication_types: ["paper-conference"]
 publication: "*Proceedings of the 3rd International Workshop on Education through Advanced Software Engineering and Artificial Intelligence (EASEAI '21)*"
 doi: 10.1145/3472673.3473959
 ---

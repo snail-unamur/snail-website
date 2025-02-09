@@ -5,7 +5,7 @@ publishDate: 2022-03-20
 authors:
   - Pouria Derakhshanfar
   - xavier-devroey
-publication_types: ["1"]
+publication_types: ["paper-conference"]
 # 0 = Uncategorized
 # 1 = Conference paper
 # 2 = Journal article

@@ -45,8 +45,7 @@ image:
 projects:
   - msc-pierre-ortegat
 publishDate: '2022-09-01T00:00:01.633930Z'
-publication_types:
-- '1'
+publication_types: ["paper-conference"]
 publication: "*Proceedings of the 4th International Workshop on Education through Advanced Software Engineering and Artificial Intelligence (EASEAI '22)*"
 doi: 10.1145/3548660.3561334
 ---

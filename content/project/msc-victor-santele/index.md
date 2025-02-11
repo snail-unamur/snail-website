@@ -11,6 +11,7 @@ tags:
   - Large Language Model
   - University Industry Collaboration
   - Test Case Generation
+  - Artificial Intelligence
 categories: []
 date: 2024-09-29T10:47:41+02:00
 

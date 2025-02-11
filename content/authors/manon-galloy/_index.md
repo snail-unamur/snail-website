@@ -24,6 +24,7 @@ bio:
 interests:
 - Behaviour-Driven Development
 - Large Language Model
+- Artificial Intelligence
 
 # # education:
 #   courses:

@@ -25,6 +25,7 @@ interests:
 - Large Language Model
 - University Industry Collaboration
 - Test Case Generation
+- Artificial Intelligence
 
 # Social/Academic Networking
 # For available icons, see: https://wowchemy.com/docs/page-builder/#icons

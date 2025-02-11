@@ -68,6 +68,7 @@ image:
 #   Otherwise, set `projects: []`.
 projects:
     - cyberexcellence
+    - msc-gabriel-benoit
 
 # Slides (optional).
 #   Associate this publication with Markdown slides.

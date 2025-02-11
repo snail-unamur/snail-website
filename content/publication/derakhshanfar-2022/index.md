@@ -23,6 +23,7 @@ doi: "10.1145/3526072.3527528"
 tags:
 - Crash Reproduction
 - Search-Based Software Testing
+- Artificial Intelligence
 
 # links:
 # - name: ""

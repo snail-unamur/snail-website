@@ -10,6 +10,7 @@ tags:
   - Finished
   - Continuous Integration
   - Search-Based Software Testing
+  - Artificial Intelligence
 categories: []
 date: 2024-08-25T10:14:15+01:00
 

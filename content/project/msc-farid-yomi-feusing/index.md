@@ -11,6 +11,7 @@ tags:
   - Open Data
   - Visualisation
   - Large Language Model
+  - Artificial Intelligence
 categories: []
 date: 2023-09-16T14:48:39+02:00
 

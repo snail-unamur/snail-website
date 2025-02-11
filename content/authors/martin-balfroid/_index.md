@@ -25,6 +25,7 @@ interests:
   - Large Language Models
   - Code Summarization
   - Developer Onboarding
+  - Artificial Intelligence
 
 # # education:
 #   courses:

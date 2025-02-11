@@ -11,6 +11,7 @@ publication: "*Proceedings of the 19th Belgium-Netherlands Software Evolution Wo
 tags:
 - Crash Reproduction
 - Search-Based Software Testing
+- Artificial Intelligence
 
 # links:
 # - name: ""

@@ -12,6 +12,7 @@ tags:
   - Cybersecurity Testing
   - Machine Learning
   - Mining Software Repository
+  - Artificial Intelligence
 date: 2022-11-04T10:14:16+01:00
 
 # Optional external URL for project (replaces project detail page).

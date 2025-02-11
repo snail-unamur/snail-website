@@ -12,6 +12,7 @@ authors:
 - Arie van Deursen
 tags:
 - Search-Based Software Testing
+- Artificial Intelligence
 categories: []
 date: '2022-10-14'
 lastmod: 2022-10-18T08:07:30+02:00

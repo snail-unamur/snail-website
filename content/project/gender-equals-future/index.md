@@ -8,7 +8,7 @@ authors:
   - benoit-vanderose
 tags:
   - Funded
-  - Ongoing
+  - Finished
   - Education
 categories: []
 date: 2023-02-10T10:00:03+01:00

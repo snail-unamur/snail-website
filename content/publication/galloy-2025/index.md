@@ -43,7 +43,7 @@ featured: false
 #   icon_pack: fab
 #   icon: twitter
 
-url_pdf: https://xdevroey.be/publication/balfroid-2025/balfroid-2025.pdf
+url_pdf: https://xdevroey.be/publication/galloy-2025/galloy-2025.pdf
 url_code:
 url_dataset: https://zenodo.org/records/14054404
 url_poster:
@@ -68,6 +68,7 @@ image:
 projects:
     - ariac
     - squalai
+    - msc-manon-galloy
 
 # Slides (optional).
 #   Associate this publication with Markdown slides.

@@ -10,7 +10,7 @@ authors:
 superuser: false
 
 # Role/position (e.g., Professor of Artificial Intelligence)
-role: Assistant Professor of Software Engineering
+role: Professor of Software Engineering
 
 # Organizations/Affiliations
 organizations:
@@ -25,6 +25,7 @@ interests:
 - Software Quality
 - Agile Software Development
 - E-Government
+- DevEx
 
 # education:
 #   courses:

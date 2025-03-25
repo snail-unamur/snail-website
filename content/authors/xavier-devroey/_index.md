@@ -10,7 +10,7 @@ authors:
 superuser: false
 
 # Role/position (e.g., Professor of Artificial Intelligence)
-role: Assistant Professor of Software Testing
+role: Professor of Software Engineering
 
 # Organizations/Affiliations
 organizations:
@@ -25,6 +25,7 @@ interests:
 - Software Testing
 - Search-based Software Engineering
 - Software Product Lines
+- Automated Software Engineering
 
 # education:
 #  courses:

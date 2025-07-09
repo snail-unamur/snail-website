@@ -1,8 +1,8 @@
 ---
 # Documentation: https://wowchemy.com/docs/managing-content/
 
-title: "Cognitive biases, minorities, and influence on sotware development methods"
-summary: "The project's general purpose is to be able to highlight certain cognitive biases in our self-perception, our performance and our decision-making. The project initially aims to identify the different cognitive biases that may exist in different contexts, depending on group membership, etc. These cognitive biases identified, an attempt to measure them will be carried out to then highlight them in the eyes of those who experience them. Finally, the creation of tools and techniques to limit the impact of cognitive biases could be evaluated."
+title: "Relations between Personality and Agile Software Development"
+summary: "The project's general purpose is to map individual personality traits to the full spectrum of agile concepts—from the core mindset and values down to specific principles and practices. The goal is to understand how personality influences an individual's affinity for each layer of agility, providing a nuanced guide to the human factors essential for successful agile adoption."
 authors:
   - nicolas-matton
   - benoit-vanderose
@@ -10,7 +10,9 @@ tags:
   - PhD Thesis
   - Ongoing
   - Software Development Methods
-  - Cognitive Bias
+  - Agile Framework
+  - Personality
+  - Human Factors
 categories: []
 date: 2020-11-01
 
@@ -46,4 +48,8 @@ url_video: ""
 slides: ""
 ---
 
-The project's general purpose is to be able to highlight certain cognitive biases in our self-perception, our performance and our decision-making. The project initially aims to identify the different cognitive biases that may exist in different contexts, depending on group membership, etc. These cognitive biases identified, an attempt to measure them will be carried out to then highlight them in the eyes of those who experience them. Finally, the creation of tools and techniques to limit the impact of cognitive biases could be evaluated.
+This doctoral research project aims to comprehensively map the intricate relationship between individual personality and the full spectrum of agile concepts.
+
+The study deconstructs "agility" into its core, hierarchical components: from the overarching agile mindset and the four foundational values of the Manifesto, down to the twelve guiding principles and the wide range of specific day-to-day practices.
+
+Using established personality frameworks like the Big Five model, the research investigates how different personality traits correlate with an individual's affinity for, and potential success within, each of these distinct agile layers. The ultimate goal is to move beyond a simplistic "agile vs. non-agile" dichotomy and provide a nuanced framework that helps organizations understand, predict, and cultivate the human factors essential for a successful and sustainable agile transformation.

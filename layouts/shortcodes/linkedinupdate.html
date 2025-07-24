@@ -1,5 +1,5 @@
 {{ $update := or (.Get "update") (.Get 0)}}
-<div class="linkedin-embed">
+<div class="linkedin-embed" style="display:flex; justify-content:center;">
     <iframe src="https://www.linkedin.com/embed/feed/update/{{ $update }}"
         height="795"
         width="504"
@@ -8,10 +8,3 @@
         title="Embedded post">
     </iframe>
 </div>
-<style>
-.linkedin-embed {
-  display: flex;
-  justify-content: center;
-  margin: 2em 0;
-}
-</style>

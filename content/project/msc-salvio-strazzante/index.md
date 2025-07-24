@@ -1,17 +1,19 @@
 ---
 # Documentation: https://wowchemy.com/docs/managing-content/
 
-title: "Software Testing at Odoo"
+title: "A Hybrid Integration Testing Approach for Odoo"
 summary: ""
 authors: 
  - salvio-strazzante
 tags: 
   - Msc Thesis
-  - Ongoing
+  - Finished
   - Software Testing
+  - DevEx
   - University Industry Collaboration
+  - Odoo
 categories: []
-date: 2024-09-29T10:47:40+02:00
+date: 2025-06-20T10:47:40+02:00
 
 # Optional external URL for project (replaces project detail page).
 external_link: ""
@@ -20,7 +22,7 @@ external_link: ""
 # To use, add an image named `featured.jpg/png` to your page's folder.
 # Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
 image:
-  caption: ""
+  caption: "Integration test example using Hoot-integration"
   focal_point: ""
   preview_only: false
 
@@ -45,4 +47,6 @@ url_video: ""
 slides: ""
 ---
 
-Odoo is a highly-configurable web-based ERP for various management tasks (CRM, inventory management, sales, invoicing, etc.) for small and medium-sized businesses. Odoo is developed mainly in Python and Javascript. This project will involve working with Odoo developers on one of the following topics at the intersection of Continuous Integration and Software Testing.
+Odoo, a company offering business management services through a modular web application, has continuously expanded the scope and complexity of its software over the years. This growing complexity raises challenges in terms of testing performance, readability, and maintainability. While existing tools such as Tours and Hoot provide solutions for system-level and unit-level testing respectively, a gap remains between the two. This thesis introduces a new approach called Hoot-Intégration, which extends the Hoot testing framework to support integration testing by enabling real server interactions in a lightweight environment. The proposed solution is implemented, validated, and compared against existing tests strategies from Odoo, showing notable gains in execution speed and test clarity. Although some technical limitations remain, the approach is effective and opens the door to future testing improvements in large and scaling modular systems like Odoo.
+
+{{< linkedinupdate "urn:li:activity:7341833947930091523" >}}

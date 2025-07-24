@@ -1,15 +1,18 @@
 ---
 # Documentation: https://wowchemy.com/docs/managing-content/
 
-title: "TesArt: Testing for digital art"
+title: "Testing for digital arts : An explorative case study on TouchDesigner"
 summary: ""
 authors: 
     - david-tang
 tags:
   - Msc Thesis
   - Finished
+  - Software Testing
+  - Creative Coding
+  - Digital Art
 categories: []
-date: 2023-09-16T14:48:39+02:00
+date: 2024-01-24T14:48:39+02:00
 
 # Optional external URL for project (replaces project detail page).
 external_link: ""
@@ -18,7 +21,7 @@ external_link: ""
 # To use, add an image named `featured.jpg/png` to your page's folder.
 # Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
 image:
-  caption: ""
+  caption: "TouchDesigner launcher interface"
   focal_point: ""
   preview_only: false
 
@@ -43,4 +46,4 @@ url_video: ""
 slides: ""
 ---
 
-The goal of the thesis is to devise an approach for automated test execution for digital performances developed using creative coding.
+As creative coding in interactive art becomes increasingly popular in the digital art world, the need to test work to ensure that it matches the artist’s expectations is essential. The problem is that the programs supporting these works can behave unexpectedly or cause problems. Some studies have shown that is possible to test these projects manually, but the use of automated tests has been little studied. The research aims to explain to what extent it is possible to implement automated tests for functional and performance testing in interactive installation projects using hybrid development tools. To answer this question, we performed a case study on the [Wall of fame](https://www.superbe.be/wall-of-fame) project in TouchDesigner. Observations on automated test experiments and an interview were made. The results of the observations showed that it was possible to carry out functional and performance tests with limitations on the reliability of the data. Difficulties were identified : TouchDesigner dependencies, operator limitations, user interface interactions, lack of native test environments, performance test limitations and maintenance difficulties. Solutions have also been found to resolve these issues.

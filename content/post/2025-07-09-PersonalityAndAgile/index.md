@@ -3,7 +3,7 @@
 
 title: "Tout le monde est-il fait pour l'agile ? Enquête sur la personnalité et l'agilité"
 subtitle: ""
-summary: ""
+summary: "La SNAIL team a besoin de vous ! Si vous avez déjà travaillé dans une équipe agile, même brièvement et peu importe votre rôle, votre expérience est précieuse pour ma recherche doctorale. [**Participez à mon enquête anonyme de 10 minutes**](https://form.dragnsurvey.com/survey/r/1d8a62b7) pour aider à mieux comprendre le lien entre personnalité et agilité."
 authors: 
   - nicolas-matton
   - benoit-vanderose
@@ -15,7 +15,7 @@ tags:
 categories: []
 date: 2025-07-09T11:25:42+02:00
 lastmod: 2025-07-09T11:25:42+02:00
-featured: true
+featured: false
 draft: false
 
 # Featured image

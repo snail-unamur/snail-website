@@ -1,18 +1,18 @@
 ---
 # Documentation: https://wowchemy.com/docs/managing-content/
 
-title: "Optimized development interface to reduce the developer's cognitive load during debugging"
+title: "Investigation of an optimized development interface to reduce the cognitive load on developers during debugging"
 summary: ""
 authors: 
  - antonin-sohy
 tags: 
   - Msc Thesis
-  - Ongoing
+  - Finished
   - DevEx
   - Debugging
   - Code Quality
 categories: []
-date: 2024-09-29T12:08:19+02:00
+date: 2025-06-20T12:08:19+02:00
 
 # Optional external URL for project (replaces project detail page).
 external_link: ""
@@ -21,7 +21,7 @@ external_link: ""
 # To use, add an image named `featured.jpg/png` to your page's folder.
 # Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
 image:
-  caption: ""
+  caption: "Flowtabs' workflow"
   focal_point: ""
   preview_only: false
 
@@ -33,7 +33,7 @@ image:
 #   icon_pack: fab
 #   icon: twitter
 
-url_code: ""
+url_code: "https://github.com/snail-unamur/FlowTabs"
 url_pdf: ""
 url_slides: ""
 url_video: ""
@@ -46,4 +46,6 @@ url_video: ""
 slides: ""
 ---
 
-While workstations (including monitors, keyboard and mouse as peripherals) have long been the most common installation for computer-intensive employees, the arrival of powerful, versatile tablets and telephones has been shaking up this organization of work in many professions for some years now. Software development, on the other hand, remains very attached to this type of installation. The aim of this thesis is therefore to explore the extent to which recent advances in software engineering (dockerization, static code analysis, etc.) could enable the development of a nomadic code review environment as efficient as the traditional model.
+This master thesis explores the design and validation of a context management tool integrated into a development environment. Developers constantly use various resources (documentation, terminal, development tools, etc.), which forces them to frequently switch between their development environment and these resources to meet their needs. This often leads to interruptions, distractions, and consequently, a drop in productivity. To address this issue, the study proposes a solution in the form of an extension for the Visual Studio Code IDE, called FlowTabs. This extension brings resources together into a unified interface and uses a relevance algorithm that adapts to the developer’s behavior to suggest the most appropriate resources. User testing has shown that it integrates well into the development environment, offering a satisfactory developer experience, cognitive comfort and effective resource management. This work thus provides an original context management solution, directly embedded in a development environment.
+
+{{< linkedinupdate "urn:li:activity:7341833947930091523" >}}

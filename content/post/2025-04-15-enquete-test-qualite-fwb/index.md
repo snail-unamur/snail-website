@@ -5,12 +5,12 @@ title: "Enquête sur les pratiques de test et de qualité logicielle en Fédéra
 subtitle: ""
 summary: ""
 authors:
-    - kevin Schweitzer
-    - aline Boulanger
-    - antonin Lesceux
-    - lucas Vervloessem
-    - yassine Bouncer
-    - louise Delpierre Stasser
+    - Kevin Schweitzer
+    - Aline Boulanger
+    - Antonin Lesceux
+    - Lucas Vervloessem
+    - Yassine Bouncer
+    - Louise Delpierre Stasser
     - jerome-maquoi
     - xavier-devroey
     - benoit-vanderose
@@ -22,7 +22,7 @@ tags:
 categories: []
 date: 2025-04-15T00:00:00+02:00
 lastmod: 2025-04-15T00:00:00+02:00
-featured: true
+featured: false
 draft: false
 
 # Featured image

@@ -4,12 +4,14 @@
 title: "Gender Equals Future: 011 for IT"
 summary: ""
 authors:
+  - julie-henry
   - xavier-devroey
   - benoit-vanderose
 tags:
   - Funded
   - Finished
   - Education
+  - Diversity Equity and Inclusion
 categories: []
 date: 2023-02-10T10:00:03+01:00
 

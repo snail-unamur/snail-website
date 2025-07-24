@@ -1,18 +1,18 @@
 ---
 # Documentation: https://wowchemy.com/docs/managing-content/
 
-title: "Towards user-friendly fuzzers"
+title: "Automated Vulnerability Injection in Web Applications: A Tool to Support Cybersecurity Education"
 summary: ""
 authors: 
  - anae-debaets
 tags: 
   - Msc Thesis
-  - Ongoing
-  - Fuzzing
-  - DevEx
-  - Web Development
+  - Finished
+  - Cybersecurity
+  - Education
+  - Mutation Testing
 categories: []
-date: 2024-09-29T10:47:40+02:00
+date: 2025-06-23T10:47:40+02:00
 
 # Optional external URL for project (replaces project detail page).
 external_link: ""
@@ -21,7 +21,7 @@ external_link: ""
 # To use, add an image named `featured.jpg/png` to your page's folder.
 # Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
 image:
-  caption: ""
+  caption: "Overall architecture"
   focal_point: ""
   preview_only: false
 
@@ -46,4 +46,10 @@ url_video: ""
 slides: ""
 ---
 
-Fuzz testing, or simply fuzzing, is an automated testing technique aiming at discovering bugs or vulnerabilities of software systems by providing random, invalid, or potential harmful input data. Fuzzing is a black-box testing technique, as typically, fuzzers, i.e. tools running fuzzing, have no access to the source code. Where structured testing will typically be manually written, i.e. developers will write test cases to ensure a system behaves as expected - verification - and fulfils the users' expectations - validation -, fuzzing tools may employ techniques to generate a range of inputs with minimal manual intervention. However, many open-source or openly-accessible fuzzers have rudimentary user interfaces, so that developers must typically have a good understanding of what software security testing is, as well as understand how specific fuzzers need to be configured for specific software under tests. This project will explore how existing fuzzers could be made more approachable for non-experts. The scope of the project will be restricted to web systems (REST).
+This thesis presents the development of a configurable tool that automatically injects web application vulnerabilities into existing Django codebases to support cybersecurity education. The primary goal is to enhance hands-on learning by allowing educators and students to engage with realistic, production-like environments that incorporate well-known security flaws, specifically drawn from the OWASP Top Ten 2021. Instead of generating synthetic applications, the tool modifies authentic Django projects, ensuring pedagogical relevance and structural fidelity.
+
+To guide and validate the tool’s conceptual design, a Systematic Literature Review (SLR) was conducted, focusing on existing approaches to vulnerability injection, security exercise generation, and automation in cybersecurity training. The SLR revealed a clear need for adaptable, user-configurable systems that balance automation with educational depth, gaps that this project addresses directly.
+
+The final system consists of a modular backend, a web-based graphical user interface, and precise code transformation logic using the libcst library, ensuring readable and structurally sound outputs. It supports selective injection of multiple vulnerability types and provides validation features. Through a testing framework and scenario-based evaluations, the configurator proved effective in producing stable, instructive, and customizable exercises. Ultimately, this work contributes a novel open-source tool that promotes scalable, realistic, and engaging cybersecurity education.
+
+{{< linkedinupdate "urn:li:activity:7342815445630017536" >}}

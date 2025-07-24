@@ -23,7 +23,7 @@ bio:
 # List each interest with a dash
 interests:
 - Software Testing
-- University Industry Collaboration
+- DevEx
 
 # Social/Academic Networking
 # For available icons, see: https://wowchemy.com/docs/page-builder/#icons
@@ -51,6 +51,6 @@ highlight_name: false
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-- MSc Students
-#- Alumni
+#- MSc Students
+- Alumni
 ---

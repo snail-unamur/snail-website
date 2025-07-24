@@ -52,3 +52,5 @@ The research starts by analyzing the state of the art in Agile methodologies, na
 In addition, the study reveals that the quality of the initial data influences the validity of the scenarios generated, with good quality seed producing a greater number of valid pairs. Nevertheless, all the sets studied resulted in usable scenarios, indicating the effectiveness of SELF-INSTRUCT regardless of seed quality. The research suggests ideas for future exploration, including further fine-tuning of the method and investigation of different language models.
 
 In conclusion, this research confirms the potential of automated data generation techniques, such as SELF- INSTRUCT, to efficiently and substantially increase the size of sets composed of BDD data. Despite its limitations, this study lays the foundation for future research aimed at improving BDD dataset augmentation and advancing the field of automated data generation in software engineering.
+
+{{< linkedinupdate "urn:li:activity:7325089342723403776" >}}

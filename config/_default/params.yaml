@@ -6,7 +6,7 @@
 # Appearance
 
 appearance:
-  theme: unamur
+#  theme: unamur
   font: native
   font_size: M
   mode: light

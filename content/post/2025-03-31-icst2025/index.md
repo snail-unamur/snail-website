@@ -7,7 +7,6 @@ summary: ""
 authors:
     - xavier-devroey
 tags: 
-  - Education
   - Academic Life
   - Large Language Model
   - Artificial Intelligence

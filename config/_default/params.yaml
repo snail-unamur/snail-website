@@ -9,7 +9,8 @@ appearance:
 #  theme: unamur
   font: native
   font_size: M
-  mode: light
+  theme_day: unamur
+  theme_night: unamur
 
 # SEO
 

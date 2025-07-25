@@ -16,25 +16,29 @@ main:
     url: '/research/#publications'
     weight: 30
     parent: research
+  - name: Education
+    url: education
+    weight: 100
+    identifier: education
   - name: MSc Thesis
     url: mscthesis
-    weight: 40
+    weight: 200
   - name: News
     url: '/news'
-    weight: 45
+    weight: 300
   - name: About SNAIL
     url: '/about'
-    weight: 50
+    weight: 400
     identifier: about
   - name: About
     url: '/about'
-    weight: 60
+    weight: 410
     parent: about
   - name: Contact
     url: '/about/#contact'
-    weight: 80
+    weight: 420
     parent: about
   - name: People
     url: '/people'
-    weight: 90
+    weight: 430
     parent: about

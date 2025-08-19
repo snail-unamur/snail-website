@@ -1,5 +1,5 @@
 ---
-title: "Bienvenu aux cours préparatoires d'informatique ! 🏝️"
+title: "Bienvenue aux cours préparatoires d'informatique ! 🏝️"
 linkTitle: "Cours prépa"
 summary: Vous trouverez sur ce site web tout le matériel nécessaire pour les différentes séances des cours péparatoires en informatique, ainsi que quelques pointeurs vers d'autres resources utiles pour les études en informatique.
 date: '2025-07-24'

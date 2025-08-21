@@ -55,7 +55,7 @@ Télécharge le fichier suivant [tresor_chateau.zip](tresor_chateau.zip) et déz
 
 ```bash
 cd
-wget https://snail.info.unamur.be/course/infoprepa//tresor_chateau.zip
+wget https://snail.info.unamur.be/course/infoprepa/tresor_chateau.zip
 ```
 
 La commande `ls` devrait normalement faire apparaître le fichier `tresor_chateau.zip` dans la liste des fichiers. Tu peux maintenant déziper le fichier à l'aide de la commande suivante :
@@ -64,10 +64,16 @@ La commande `ls` devrait normalement faire apparaître le fichier `tresor_chatea
 unzip tresor_chateau.zip -d tresor_chateau
 ```
 
-La commande `ls` devrait maintenant faire apparaître le dossier `tresor_chateau`. Pour démarrer le jeu, rends toi dans ce dossier et lis le premier indice à l'aide des commandes suivantes :
+La commande `ls` devrait maintenant faire apparaître le dossier `tresor_chateau`. Rends toi dans ce dossier et tape les commandes suivantes pour initialiser le jeu :
 
 ```bash
 cd tresor_chateau
+bash permissions.sh
+```
+
+Enfin, pour démarrer le jeu, lis le premier indice à l'aide des commandes suivantes :
+
+```bash
 cat panneau01.txt
 ```
 

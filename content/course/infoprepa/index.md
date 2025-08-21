@@ -11,32 +11,45 @@ tags:
 
 Vous trouverez sur ce site web tout le matériel nécessaire pour les différentes séances des cours, ainsi que quelques pointeurs vers d'autres resources utiles pour les études en informatique.
 
-## Partie 1 : Devenir un·e power user
-
-### 1-1 C’est quoi l’informatique ?
+## Partie 1 – C’est quoi l’informatique ?
 
 Cette première séance se concentre sur l'ordinateur et la manière dont il traite l'information. Le but de la séance est de ... rendre une planche de plastique capable de faire des additions à ta place ! 😁
 
 [Les slides de la séance sont disponibles ici.](INFOB000-Cours-prepa-session01.pdf)
 
-**Activité *Turing Tumble* :** Vas sur la version en ligne de [Turing Tumble](https://tumble-together.herokuapp.com/) et essaye de résoudre les puzzles \#1, \#5 et \#11 : [https://tumble-together.herokuapp.com/](https://tumble-together.herokuapp.com/).
+### Activité Turing Tumble
+
+Vas sur la version en ligne de [Turing Tumble](https://tumble-together.herokuapp.com/) et essaye de résoudre les puzzles \#1, \#5 et \#11 : [https://tumble-together.herokuapp.com/](https://tumble-together.herokuapp.com/).
 
 ![Turing Tumble printscreen 1](img/turingtumble1.jpg)
 ![Turing Tumble printscreen 2](img/turingtumble2.jpg)
 
 ([documentation](https://upperstory.com/turingtumble/assets/educator-guide-2021.pdf))
 
-**Activité *Binary Game* :** Vas sur [https://learningcontent.cisco.com/games/binary/index.html](https://learningcontent.cisco.com/games/binary/index.html) pour résoudre le plus de puzzles le plus vite possible avant que la pile de nouveaux puzzles ne déborde (on parle d'*overflow* en informatique ;-)).
+### Activité Binary Game
+
+Vas sur [https://learningcontent.cisco.com/games/binary/index.html](https://learningcontent.cisco.com/games/binary/index.html) pour résoudre le plus de puzzles le plus vite possible avant que la pile de nouveaux puzzles ne déborde (on parle d'*overflow* en informatique ;-)).
 
 ![Binary Game printscreen](img/binarygame.jpg)
 
-### 1-2 Utiliser l’ordinateur comme un·e power user
+------------------------------------------------------------
+
+## Partie 2 – Devenir un·e power user
 
 Deuxième séance, il est temps de voir comment utiliser un ordinateur comme un·e pro, via un terminal de commande. 😎
 
 [Les slides de la séance sont disponibles ici.](INFOB000-Cours-prepa-session02.pdf)
 
-**Activité *Jeu de piste en ligne de commande* :**
+Quelques commandes de base pour vous en sortir:
+
+- `pwd` (*print working directory*) permet d'afficher le répertoire dans lequel tu te trouves (aussi appelé le *répertoire courant*).
+- `cd [directory]` (*change directory*) permet de changer de répertoire courant. Si aucun `directory` n'est précisé, la commande utilise le répertoire par défaut `~`. Il s'agit du *home directory* de l'utilisateur (`/home/`*userid*`/` sous Linux et MacOS).
+- `man [command]` (*manual*) permet d'afficher la page de manuel relative à la commande donnée. Très utile, cette commande te permet de rapidement voir comment taper une commande ou comprendre ses différentes options. Utilise la touche `q` pour quitter le manuel.
+- `ls [directory]` (*list*) permet de lister le contenu d'un répertoire donné. Si aucun répertoire n'est donné, la commande utilise le répertoire courant (`.`).
+
+*Pro tip : la section 2 du manuel (`man 2 [function]`) est consacrée aux fonctions système, très utile à savoir pour un TP de système d'exploitation. Des exemples d'utilisation sont en général disponibles en bas de la page du manuel.* 😉
+
+### Activité Jeu de piste en ligne de commande
 
 Télécharge le fichier suivant [tresor_chateau.zip](tresor_chateau.zip) et dézipe le dans ton dossier utilisateur (`/home/tonidentifiant/`). Si tu veux le faire sans utiliser la souris, ouvre un terminal de commande et tape les commandes suivantes pour télécharger le fichier sur ta machine depuis le site web :
 
@@ -48,7 +61,7 @@ wget https://snail.info.unamur.be/course/infoprepa//tresor_chateau.zip
 La commande `ls` devrait normalement faire apparaître le fichier `tresor_chateau.zip` dans la liste des fichiers. Tu peux maintenant déziper le fichier à l'aide de la commande suivante :
 
 ```bash
-unzip tresor_chateau.zip
+unzip tresor_chateau.zip -d tresor_chateau
 ```
 
 La commande `ls` devrait maintenant faire apparaître le dossier `tresor_chateau`. Pour démarrer le jeu, rends toi dans ce dossier et lis le premier indice à l'aide des commandes suivantes :
@@ -62,16 +75,9 @@ cat panneau01.txt
 
 (adapté depuis [Le trésor du chateau: Jeu de piste en ligne de commande sous Linux](https://www.enseignons.be/preparation/86760/) de Cédric Libert)
 
-**Resources supplémentaires** :
-
-- [Bash scripting cheatsheet](https://devhints.io/bash)
-- [Introduction au Script Bash (avec exemples)](https://www.hostinger.fr/tutoriels/introduction-au-script-bash-avec-exemples)
-
 ------------------------------------------------------------
 
-## Partie 2 : Devenir un·e développeur·euse
-
-### 2-1 Introduction à l’algorithmique
+## Partie 3 – Apprendre à automatiser
 
 Lors de la dernière séance, nous avons vu avec vous les briques de base de la programmation. Ces briques apparaissent dans la plupart des langages de programmation ([impérative](https://fr.wikipedia.org/wiki/Programmation_impérative)) comme le Python ou le Java. Pour faciliter les choses, on te propose de sauvegarder la *cheat sheet* (*aide-mémoire* en français) suivante qui reprends les différents concepts (une [version .pdf est disponible ici](cheatsheet-bases-programmation.pdf)) :
 
@@ -81,7 +87,9 @@ Le but de cette troisième séance est de voir comment combiner ces briques de b
 
 [Les slides de la séance sont disponibles ici.](INFOB000-Cours-prepa-session03.pdf)
 
-**Exemple *Financement participatif* :** Cet exemple est utilisé dans le cours pour illustrer les différentes étapes de la conception d'un algorithme permettant d'automatiser une tâche donnée. Voici l'énoncé de l'exercice en français :
+### Exemple : Financement participatif
+
+Cet exemple est utilisé dans le cours pour illustrer les différentes étapes de la conception d'un algorithme permettant d'automatiser une tâche donnée. Voici l'énoncé de l'exercice en français :
 
 > Sur une plateforme de financement participatif, chaque utilisateur·trice décide librement d’un montant qu’il ou elle souhaite investir dans un projet qui lui tient à cœur. L’utilisateur·trice reçoit en retour certains avantages en fonction de la somme investie. Ces avantages sont cumulatifs : une personne qui investit 100€ a droit à recevoir au moins les même avantages qu’une personne qui investit 99€ ou moins.
 >
@@ -92,17 +100,23 @@ Le but de cette troisième séance est de voir comment combiner ces briques de b
 > - à partir de 5000€ : concert privé pour max. 20 personnes de votre choix (avantage 3).
 > - Si l’utilisateur·trice ne donne pas suffisamment pour avoir un avantage, il faut l’avertir.
 
-**Activité *Bootstrapping your Python skills* :** Pour découvrir le langage Python, on te propose d'aller sur le [Jupyter Notebook créé par nos soins](https://colab.research.google.com/drive/15CcHpemDYJcn2KOhdoFAEEY-riRKAXQ2?usp=sharing). Les *notebooks* (ou *calepins* en français) sont des environnement de développement dédiés à l'apprentissage d'un langage de programmation. Ce calepin a été conçu pour découvrir les bases du langage Python.
+### Activité Bootstrapping your Python skills
+
+Pour découvrir le langage Python, on te propose d'aller sur le [Jupyter Notebook créé par nos soins](https://colab.research.google.com/drive/15CcHpemDYJcn2KOhdoFAEEY-riRKAXQ2?usp=sharing). Les *notebooks* (ou *calepins* en français) sont des environnement de développement dédiés à l'apprentissage d'un langage de programmation. Ce calepin a été conçu pour découvrir les bases du langage Python.
 
 Pour te faciliter la vie par la suite, voici une *cheat sheet* avec les briques de base de la programmation en Python (une [version .pdf est disponible ici](cheatsheet-bases-python.pdf)) :
 
 ![Cheat sheet reprenant les bases de la programmation en Python](img/cheatsheet-bases-python.jpg)
 
-### 2-2 L'environnement de développement
+------------------------------------------------------------
+
+## Partie 4 – Devenir un·e développeur·euse
 
 Dernière séance, pour se familiariser avec l'environnement de développement intégré (EDI) [Visual Studio Code](https://code.visualstudio.com), utilisé en première année, on te propose de suivre un mini tutoriel pour te présenter quelques fonctionnalités de base. Tu te rendras vite compte que les EDIs sont des outils puissants, personnalisables à volonté. N'hésites donc pas à explorer par toi même et voir ce qu'il est possible de faire avec.
 
-**Les bases :** La première étape lorsque l'on veut programmer en Python est d'installer le plugin Python via le panneau *Extensions*. L'installation du plugin Python devrait également déclencher l'installation du plugin Python Debugger :
+### Les bases
+
+La première étape lorsque l'on veut programmer en Python est d'installer le plugin Python via le panneau *Extensions*. L'installation du plugin Python devrait également déclencher l'installation du plugin Python Debugger :
 
 ![Ouvrir le panneau d'extension et installer le plugin Python](img/vscode01-python-extension.gif)
 
@@ -124,7 +138,9 @@ Une fois fait, n'oublie pas de sauver le fichier (`CTRL` + `s` sur Windows et Li
 
 ![Nouveau Fichier](img/vscode04-executer.gif)
 
-**Renommer une variable et naviguer dans le code :** Pour la suite, tu vas avoir besoin de créer un nouveau fichier (par exemple, `deviner.py`) et d'y ajouter le code suivant :
+### Renommer une variable et naviguer dans le code
+
+Pour la suite, tu vas avoir besoin de créer un nouveau fichier (par exemple, `deviner.py`) et d'y ajouter le code suivant :
 
 ```python
 import random
@@ -163,7 +179,9 @@ Cette fonctionnalité est très pratique lorsque l'on a un code source important
 
 ![Naviguer vers les références d'une variable](img/vscode07-gotoreferences.gif)
 
-**Extraire une fonction :** Contrairement à ce que tu pourrait croire, écrire un morceau de code (qui fera partie d'un programme) ne se fait pas en une fois. En général, on écrit une première version du code que l'on va retravailler pour diverses raisons : améliorer sa lisibilité, optimiser son exécution ou encore regrouper les bouts de code similaires, voire identiques dans une fonction (il s'agit de *modulariser* le code). C'est ce que l'on appelle communément du *refactoring* de code (ou *refactorisation* en français). Pour améliorer la lisibilité, nous venons de voir comment, par exemple, renommer une variable. Ton EDI te permet d'aller plus loin, par exemple, en extrayant une fonction d'un morceau de code existant. Pour cela, il faut sélectionner le morceau de code en question, cliquer sur la petite ampoule qui apparaît 💡 -> `Méthode d'extraction`.
+### Extraire une fonction
+
+Contrairement à ce que tu pourrait croire, écrire un morceau de code (qui fera partie d'un programme) ne se fait pas en une fois. En général, on écrit une première version du code que l'on va retravailler pour diverses raisons : améliorer sa lisibilité, optimiser son exécution ou encore regrouper les bouts de code similaires, voire identiques dans une fonction (il s'agit de *modulariser* le code). C'est ce que l'on appelle communément du *refactoring* de code (ou *refactorisation* en français). Pour améliorer la lisibilité, nous venons de voir comment, par exemple, renommer une variable. Ton EDI te permet d'aller plus loin, par exemple, en extrayant une fonction d'un morceau de code existant. Pour cela, il faut sélectionner le morceau de code en question, cliquer sur la petite ampoule qui apparaît 💡 -> `Méthode d'extraction`.
 
 ![Extraire une fonction depuis un morceau de code existant](img/vscode08-extractionfonction.gif)
 
@@ -173,13 +191,17 @@ Une fois extraite, tu peux rendre la fonction plus modulaire en ajoutant, par ex
 
 La fonction d'auto complétion de l'EDI te facilitera la vie en te proposant différentes options. Dans ce cas-ci, le paramètre `valeur_max` qui vient d'être déclaré dans l'entête de la fonction (`def deviner_nombre(valeur_max)`).
 
-**Poser un diagnostic en cas d'erreur :** En cas d'erreur lors de l'exécution d'un programme Python, l'interpréteur donnera quelques indications. Si tu exécutes le programme de la vidéo précédente, l'interpréteur provoquera une erreur avec le message suivant : `deviner_nombre() missing 1 required positional argument: 'valeur_max'`. Celui ci nous dit qu'il manque un argument lors de l'appel à `deviner_nombre()`. Les messages d'erreur peuvent paraître assez cryptiques au début, mais renseignent en général assez bien sur ce qui ne va pas. N'hésite jamais à le traduire en français si l'anglais n'est pas (encore ;-)) ton point fort ou à copier et coller le message d'erreur dans ton moteur de recherche préféré pour avoir plus d'information.
+### Poser un diagnostic en cas d'erreur
+
+En cas d'erreur lors de l'exécution d'un programme Python, l'interpréteur donnera quelques indications. Si tu exécutes le programme de la vidéo précédente, l'interpréteur provoquera une erreur avec le message suivant : `deviner_nombre() missing 1 required positional argument: 'valeur_max'`. Celui ci nous dit qu'il manque un argument lors de l'appel à `deviner_nombre()`. Les messages d'erreur peuvent paraître assez cryptiques au début, mais renseignent en général assez bien sur ce qui ne va pas. N'hésite jamais à le traduire en français si l'anglais n'est pas (encore ;-)) ton point fort ou à copier et coller le message d'erreur dans ton moteur de recherche préféré pour avoir plus d'information.
 
 ![Navigation vers la localisation probable en cas d'erreur](img/vscode10-navigationerreur.gif)
 
 Un autre élément intéressant du message d'erreur est la localisation (probable) de cette erreur : `File: "/Users/.../deviner.py", line 23, in <module> deviner_nombre()`. En passant ta souris sur <u>`"/Users/.../deviner.py", line 23`</u>, ton EDI t'indiques que tu peux te rendre à l'endroit renseigné (via `cmd` + clic sur Mac), ce qui facilite le diagnostic et la correction de l'erreur. Dans ce cas ci, il suffit simplement d'ajouter une valeur lors de l'appel à `deviner_nombre()`. Par exemple, `deviner_nombre(100)` fera deviner un nombre entre 1 et 100 à l'utilisateur.
 
-**Documenter le code :** Lorsque l'on programme, il est important de documenter son code. Tu as sans doute remarqué les commentaires précédés d'un dièse `#` dans le code que nous t'avons fourni plus haut. Ces commentaires renseignent sur les différentes étapes du code, par exemple lors de l'appel à une fonction externe comme `randint`. Ces commentaires sont ignorés par l'interpréteur Python. Autrement dit, si tu veux qu'une ligne de code ne soit pas exécutée sans pour autant la supprimer, ajouter un dièse `#` au début de la ligne et l'interpréteur l'ignorera.
+### Documenter le code
+
+Lorsque l'on programme, il est important de documenter son code. Tu as sans doute remarqué les commentaires précédés d'un dièse `#` dans le code que nous t'avons fourni plus haut. Ces commentaires renseignent sur les différentes étapes du code, par exemple lors de l'appel à une fonction externe comme `randint`. Ces commentaires sont ignorés par l'interpréteur Python. Autrement dit, si tu veux qu'une ligne de code ne soit pas exécutée sans pour autant la supprimer, ajouter un dièse `#` au début de la ligne et l'interpréteur l'ignorera.
 
 Maintenant, si tu passes le curseur de ta souris sur `randint`, l'EDI t'affichera une fenêtre reprenant l'entête de la fonction, ainsi qu'une phrase décrivant ce que fait cette fonction :
 
@@ -210,7 +232,9 @@ Parameters
    La valeur maximale que peut prendre le nombre à faire deviner.
 ```
 
-**Afficher l'historique des modifications :** Bon, après toutes ces modifications, il te sera parfois nécessaire de devoir revenir en arrière (ou simplement de voir ce qui a changé dans le fichier). Là encore, l'EDI peut t'aider. Il est pourvu d'un mécanisme local permettant d'enregistrer des versions intermédiaires d'un fichier. Pour cela, rien de plus facile, clic droit sur un fichier -> `Ouvrir la chronologie` pour afficher une liste des versions précédentes. En cliquant sur une version, l'EDI ouvrira une fenêtre permettant de comparer la version courante à cette version précédente.
+### Afficher l'historique des modifications
+
+Bon, après toutes ces modifications, il te sera parfois nécessaire de devoir revenir en arrière (ou simplement de voir ce qui a changé dans le fichier). Là encore, l'EDI peut t'aider. Il est pourvu d'un mécanisme local permettant d'enregistrer des versions intermédiaires d'un fichier. Pour cela, rien de plus facile, clic droit sur un fichier -> `Ouvrir la chronologie` pour afficher une liste des versions précédentes. En cliquant sur une version, l'EDI ouvrira une fenêtre permettant de comparer la version courante à cette version précédente.
 
 ![Ouvrir l'historique local d'un fichier](img/vscode13-historiquelocal.gif)
 
@@ -221,4 +245,6 @@ Pour cela, tu vas avoir besoin d'un autre outil : [Git](https://git-scm.com), un
 ## Autres resources utiles
 
 - [Éduquer au numérique. 12 clés pour comprendre l'informatique](https://www.politeia.be/fr_BE/shop/18533-eduquer-au-numerique-12-cles-pour-comprendre-l-informatique-11619) (livre, aussi disponible en prêt à la [BUMP](https://www.unamur.be/fr/bump))
+- [Bash scripting cheatsheet](https://devhints.io/bash)
+- [Introduction au Script Bash (avec exemples)](https://www.hostinger.fr/tutoriels/introduction-au-script-bash-avec-exemples)
 - [Pro Git (2è édition)](https://git-scm.com/book/fr/v2/)

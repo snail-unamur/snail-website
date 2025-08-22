@@ -251,6 +251,7 @@ Pour cela, tu vas avoir besoin d'un autre outil : [Git](https://git-scm.com), un
 ## Autres resources utiles
 
 - [Éduquer au numérique. 12 clés pour comprendre l'informatique](https://www.politeia.be/fr_BE/shop/18533-eduquer-au-numerique-12-cles-pour-comprendre-l-informatique-11619) (livre, aussi disponible en prêt à la [BUMP](https://www.unamur.be/fr/bump))
+- [Bash commands cheatsheet](https://github.com/RehanSaeed/Bash-Cheat-Sheet)
 - [Bash scripting cheatsheet](https://devhints.io/bash)
 - [Introduction au Script Bash (avec exemples)](https://www.hostinger.fr/tutoriels/introduction-au-script-bash-avec-exemples)
 - [Pro Git (2è édition)](https://git-scm.com/book/fr/v2/)

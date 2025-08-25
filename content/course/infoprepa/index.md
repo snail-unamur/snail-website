@@ -85,30 +85,17 @@ cat panneau01.txt
 
 ## Partie 3 – Apprendre à automatiser
 
-Lors de la dernière séance, nous avons vu avec vous les briques de base de la programmation. Ces briques apparaissent dans la plupart des langages de programmation ([impérative](https://fr.wikipedia.org/wiki/Programmation_impérative)) comme le Python ou le Java. Pour faciliter les choses, on te propose de sauvegarder la *cheat sheet* (*aide-mémoire* en français) suivante qui reprends les différents concepts (une [version .pdf est disponible ici](cheatsheet-bases-programmation.pdf)) :
-
-![Cheat sheet reprenant les bases de la programmation](img/cheatsheet-bases-programmation.jpg)
-
-Le but de cette troisième séance est de voir comment combiner ces briques de base pour passer d'une tâche à automatiser au programme qui l'automatisera. Et pour cela, on va utiliser l'exemple ci-dessous. 👇
+Dans cette séance, nous verrons les briques de base de la programmation. Ces briques apparaissent dans la plupart des langages de programmation ([impérative](https://fr.wikipedia.org/wiki/Programmation_impérative)) comme le Python ou le Java. 🧱
 
 [Les slides de la séance sont disponibles ici.](INFOB000-Cours-prepa-session03.pdf)
 
-### Exemple : Financement participatif
+Pour faciliter les choses, on te propose de sauvegarder la *cheat sheet* (*aide-mémoire* en français) suivante qui reprends les différents concepts (une [version .pdf est disponible ici](cheatsheet-bases-programmation.pdf)) :
 
-Cet exemple est utilisé dans le cours pour illustrer les différentes étapes de la conception d'un algorithme permettant d'automatiser une tâche donnée. Voici l'énoncé de l'exercice en français :
-
-> Sur une plateforme de financement participatif, chaque utilisateur·trice décide librement d’un montant qu’il ou elle souhaite investir dans un projet qui lui tient à cœur. L’utilisateur·trice reçoit en retour certains avantages en fonction de la somme investie. Ces avantages sont cumulatifs : une personne qui investit 100€ a droit à recevoir au moins les même avantages qu’une personne qui investit 99€ ou moins.
->
-> Dans le cadre d’une campagne pour lancer une nouvelle artiste, vous devez implémenter une suite d’instructions qui, à partir d’un montant donné, affiche les avantages octroyés suivants :
->
-> - à partir de 50€ : envoi d’un poster dédicacé (avantage 1);
-> - à partir de 500€ : possibilité de passer 30 minutes avec l’artiste (avantage 2);
-> - à partir de 5000€ : concert privé pour max. 20 personnes de votre choix (avantage 3).
-> - Si l’utilisateur·trice ne donne pas suffisamment pour avoir un avantage, il faut l’avertir.
+![Cheat sheet reprenant les bases de la programmation](img/cheatsheet-bases-programmation.jpg)
 
 ### Activité Bootstrapping your Python skills
 
-Pour découvrir le langage Python, on te propose d'aller sur le [Jupyter Notebook créé par nos soins](https://colab.research.google.com/drive/15CcHpemDYJcn2KOhdoFAEEY-riRKAXQ2?usp=sharing). Les *notebooks* (ou *calepins* en français) sont des environnement de développement dédiés à l'apprentissage d'un langage de programmation. Ce calepin a été conçu pour découvrir les bases du langage Python.
+Pour découvrir le langage Python, on te propose d'aller sur le [Jupyter Notebook créé par nos soins](https://colab.research.google.com/drive/15CcHpemDYJcn2KOhdoFAEEY-riRKAXQ2?usp=sharing). Les *notebooks* (ou *calepins* en français) sont des environnement de développement dédiés à l'apprentissage d'un langage de programmation. Ce calepin a été conçu pour découvrir les bases du langage Python. 🐍
 
 Pour te faciliter la vie par la suite, voici une *cheat sheet* avec les briques de base de la programmation en Python (une [version .pdf est disponible ici](cheatsheet-bases-python.pdf)) :
 

@@ -1,8 +1,14 @@
 ---
-title: Courses
-view: 4
+title: 📚 Courses
+type: page
+tags:
+  - preface
 
-header:
-  caption: ""
-  image: ""
+view: compact
+
+banner:
+  caption: ''
+  image: ''
 ---
+
+Explore our courses below and expand your knowledge! 😊

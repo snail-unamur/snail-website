@@ -1,5 +1,5 @@
 ---
-title: "Bienvenue aux cours préparatoires d'informatique ! 🏝️"
+title: "🏝️ Bienvenue aux cours préparatoires d'informatique !"
 linkTitle: "Cours prépa"
 summary: Vous trouverez sur ce site web tout le matériel nécessaire pour les différentes séances des cours péparatoires en informatique, ainsi que quelques pointeurs vers d'autres resources utiles pour les études en informatique.
 date: '2025-07-24'
@@ -107,6 +107,8 @@ Pour te faciliter la vie par la suite, voici une *cheat sheet* avec les briques 
 
 Dernière séance, pour se familiariser avec l'environnement de développement intégré (EDI) [Visual Studio Code](https://code.visualstudio.com), utilisé en première année, on te propose de suivre un mini tutoriel pour te présenter quelques fonctionnalités de base. Tu te rendras vite compte que les EDIs sont des outils puissants, personnalisables à volonté. N'hésites donc pas à explorer par toi même et voir ce qu'il est possible de faire avec.
 
+[Les slides de la séance sont disponibles ici.](INFOB000-Cours-prepa-session04.pdf)
+
 ### Les bases
 
 La première étape lorsque l'on veut programmer en Python est d'installer le plugin Python via le panneau *Extensions*. L'installation du plugin Python devrait également déclencher l'installation du plugin Python Debugger :
@@ -158,7 +160,7 @@ while not f:
         f = True
 ```
 
-On te laisse le soin de deviner ce que fait ce bout de code. :-) Comme tu peux le voir, les noms de variables ne sont pas très explicites. Une bonne pratique lorsque l'on programme consiste à donner des noms qui peuvent renseigner un autre programmeur lisant le code sur ce que cette variable représente. Par exemple, la variable `d` est la valeur aléatoire comprise entre 1 et 100 que l'utilisateur doit deviner. Heureusement, les EDIs permettent de renommer facilement une variable. Pour cela, il te suffit de sélectionner la variable à un endroit de ton code, clic droit -> `Renommer le symbole`.
+On te laisse le soin de deviner ce que fait ce bout de code. 😁 Comme tu peux le voir, les noms de variables ne sont pas très explicites. Une bonne pratique lorsque l'on programme consiste à donner des noms qui peuvent renseigner un autre programmeur lisant le code sur ce que cette variable représente. Par exemple, la variable `d` est la valeur aléatoire comprise entre 1 et 100 que l'utilisateur doit deviner. Heureusement, les EDIs permettent de renommer facilement une variable. Pour cela, il te suffit de sélectionner la variable à un endroit de ton code, clic droit -> `Renommer le symbole`.
 
 ![Renommer une variable](img/vscode05-renommer.gif)
 
@@ -234,6 +236,46 @@ Bon, après toutes ces modifications, il te sera parfois nécessaire de devoir r
 Ce mécanisme bien pratique a toutefois un gros désavantage : il est local. Ce qui veut dire que si tu déplaces ou renomme le fichier, il est perdu. Tu ne peux pas non plus envoyer le fichier avec son historique à quelqu'un d'autre ou collaborer à plusieurs sur le même fichier.
 
 Pour cela, tu vas avoir besoin d'un autre outil : [Git](https://git-scm.com), un système de gestion de versions. 😉
+
+### Éviter les erreurs avec un linter
+
+Un quoi ? Un *linter*, c'est le nom donné aux outils d'analyse de code qui permettent de détecter des erreurs dans le code. Les erreurs peuvent aller de l'oubli d'un espace (pour que le code soit bien formaté) à des erreurs qui peuvent faire crasher le programme (comme plus haut). Il existe plein de linters différents et tu apprendras même à en écrire un en master. Mais pour le moment on va se contenter d'utiliser [Pylint](https://pylint.readthedocs.io/) et le [plugin VSCode](https://marketplace.visualstudio.com/items?itemName=ms-python.pylint) qui va avec.
+
+<!-- ![Installer Pylint](img/vscode14-installpylint.gif) -->
+
+Une fois le plugin installé, reviens à la version du code qui a provoqué une erreur via la chronologie des versions du fichier. Tu vas voir que ton EDI va maintenant souligner des bouts de code en différentes couleurs : bleu, jaune, rouge. Ces couleurs représentent le niveau de l'erreur pointée par Pylint (aussi appelé le *severity level*) : bleu pour les erreurs mineures, jaune pour des erreurs pouvant poser problème (*warnings*) et rouge pour les erreurs qui ne manqueront pas de provoquer un crash du programme (*errors*). Si tu passes ta souris sur les lignes concernées, tu verras un message te renseignant sur l'erreur relevée par le linter.
+
+<!-- ![Voir l'analyse de Pylint](img/vscode15-viewpylint.gif) -->
+
+Comme tu peux le voir, la ligne où l'appel à `deviner_nombre()` se fait sans donner de valeur maximale entre les parenthèses est en rouge, indiquant une erreur qui va (comme on l'a vu) provoquer un crash. En passant ta souris sur la ligne, le message d'erreur suivant apparaît :
+
+> No value for argument 'max_value' in function call Pylint([E1120:no-value-for-parameter](https://pylint.readthedocs.io/en/latest/user_guide/messages/error/no-value-for-parameter.html))
+
+Le message proprement dit te renseigne sur l'erreur (ici, on a pas donné de valeur `max_value`), mais il contient aussi un lien vers une page web expliquant pourquoi Pylint considère que c'est une erreur. Ici, l'erreur `E1120:no-value-for-parameter` est utilisée lorsqu'un appel de fonction passe trop peu d'arguments.
+
+Si tu as suivi nos instructions jusqu'ici, tu devrais voir d'autres erreurs mineures en bleu dans le code avec des messages signalant qu'une ou plusieurs lignes de code sont trop longues :
+
+> Line too long (102/100) Pylint([C0301:line-too-long](https://pylint.readthedocs.io/en/latest/user_guide/messages/convention/line-too-long.html))
+
+Ou encore qu'il y a des espaces en trop dans le code :
+
+> Trailing whitespace Pylint([C0303:trailing-whitespace](https://pylint.readthedocs.io/en/latest/user_guide/messages/convention/trailing-whitespace.html))
+
+Cela peut te paraître peu important. Après tout, le programme va tourner sans problème. Le souci, c'est que si le format n'est pas standard, cela va compliquer la lecture du code au bout d'un moment. Et en cas de travail de groupe, c'est pas une bonne chose. Imagine un syllabus où le prof passe son temps à changer de style : une fois en Arial 11 avec des numéros de chapitres arabes, une fois en Times 14 avec des numéros de chapitres romains, une fois en Comic Sans 12 avec des lettres comme numéros de chapitres, etc. Le contenu du syllabus est là, mais ton étude ne sera pas aussi simple que si le même style avait été utilisé pour l'ensemble du syllabus.
+
+Un adage en informatique attribué à Martin Golding dit de "*toujours coder comme si le gars qui finit par maintenir ton code est un psychopathe violent qui sait où tu vis*." Autrement dit, utilise un style standard... mais on va te montrer comment automatiser ça (en partie). 😉
+
+### Formater son code automatiquement
+
+Pour ça aussi il existe des plugins. Ici on va utiliser un [plugin](https://marketplace.visualstudio.com/items?itemName=ms-python.black-formatter) pour un outils appelé [Black Formatter](https://black.readthedocs.io/) qui est, comme son nom l'indique, un outils de mise en forme le code.
+
+<!-- ![Installer Black Formatter](img/vscode15-installformatter.gif) -->
+
+Une fois que c'est fait, tu peux mettre le code en forme, soit en utilisant un clic droit -> `Mettre le document en forme`, soit en utilisant la barre de commande de l'EDI située en haut de la fenêtre. Là tu vas pouvoir taper des commandes en commençant par taper `>`. L'autocomplétion te proposera alors différentes commandes. Si tu tapes `> Mettre en forme`, tu devrais voir apparaître plusieurs propositions, dont `Mettre le document en forme`. Sélectionne la commande avec les flèches du clavier (⬆️ et ⬇️) et appui sur entrer (↩️) pour voir ton code se mettre en forme sous tes yeux ébahis. 😁
+
+<!-- ![Utiliser Black Formatter](img/vscode15-useformatter.gif) -->
+
+*Pro tip : le raccourci `CTRL+p` (ou `Command+p` sur Mac) permet d'accéder à la barre de commande plus rapidement.*
 
 ## Autres resources utiles
 

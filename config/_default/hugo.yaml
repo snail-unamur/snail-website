@@ -8,6 +8,21 @@ baseurl: '' # Website URL
 copyright: '© {year} SNAIL team' # Footer text, e.g. '© {year} Me'
 
 ############################
+## PAGE OPTIONS
+############################
+
+cascade:
+  # Docs folder options
+  - _target:
+      path: /course/**
+    show_breadcrumb: true
+  # Blog post folder options
+  - _target:
+      path: /post/**
+    show_related: true
+
+
+############################
 ## LANGUAGE
 ############################
 
@@ -60,10 +75,10 @@ markup:
     startLevel: 2
     endLevel: 3
 imaging:
-  resampleFilter: lanczos
+  resampleFilter: Lanczos
   quality: 75
-  anchor: smart
-timeout: 600000
+  anchor: Smart
+timeout: "60s"
 taxonomies:
   tag: tags
   category: categories
@@ -90,10 +105,6 @@ privacy:
     respectDoNotTrack: true
   instagram:
     disable: true
-    simple: true
-  twitter:
-    disable: true
-    enableDNT: true
     simple: true
   vimeo:
     disable: true

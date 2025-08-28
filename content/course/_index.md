@@ -11,4 +11,4 @@ banner:
   image: ''
 ---
 
-Explore our courses below and expand your knowledge! 😊
+Explore our courses and expand your knowledge! 😊

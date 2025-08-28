@@ -42,7 +42,7 @@ sections:
       view: compact
       # Choose single or dual column layout
       columns: '2'
-  - block: collection
+  - block: portfolio
     id: education-courses
     content:
       title: Online resources
@@ -53,16 +53,28 @@ sections:
       # Filter on criteria
       filters:
         # The folders to display content from
+        # folders:
+        #   - course
+        # author: ""
+        # category: ""
+        # tag: ""
+        # publication_type: ""
+        # featured_only: false
+        # exclude_featured: false
+        # exclude_future: false
+        # exclude_past: false
+      filters:
+        # Folders to display content from
         folders:
           - course
-        author: ""
-        category: ""
-        tag: ""
-        publication_type: ""
-        featured_only: false
-        exclude_featured: false
-        exclude_future: false
-        exclude_past: false
+        # Only show content with these tags
+        tags: []
+        # Exclude content with these tags
+        exclude_tags: 
+            - preface
+        # Which Hugo page kinds to show (https://gohugo.io/templates/section-templates/#page-kinds)
+        kinds:
+          - section
       # Choose how many pages you would like to offset by
       # Useful if you wish to show the first item in the Featured widget
       offset: 0

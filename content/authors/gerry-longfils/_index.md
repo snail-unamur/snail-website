@@ -10,7 +10,7 @@ authors:
 superuser: false
 
 # Role/position (e.g., Professor of Artificial Intelligence)
-role: Scientific Developer
+role: PhD Student
 
 # Organizations/Affiliations
 organizations:
@@ -24,30 +24,29 @@ bio:
 interests:
 #- Augmented Reality
 - Virtual Reality
-- Software Testing
+- Model-Based Testing
+- Test Case Generation
 
 # Social/Academic Networking
 # For available icons, see: https://wowchemy.com/docs/page-builder/#icons
 #   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
 #   form "mailto:your-email@example.com" or "#contact" for contact widget.
 social:
-# - icon: globe
-#   icon_pack: fas
-#   link: 'https://xdevroey.be'
-# - icon: envelope
-#   icon_pack: fas
-#   link: 'mailto:xavier.devroey@unamur.be'  # For a direct email link, use "mailto:test@example.org".
+- icon: globe
+  icon_pack: fas
+  link: 'https://researchportal.unamur.be/en/persons/glongfil'
+- icon: envelope
+  icon_pack: fas
+  link: 'mailto:gerry.longfils@unamur.be'  # For a direct email link, use "mailto:test@example.org".
 - icon: linkedin
   icon_pack: fab
   link: 'https://www.linkedin.com/in/gerry-longfils-41578021a/'
 - icon: github
   icon_pack: fab
   link: https://github.com/djedje-cyber
-# Link to a PDF of your resume/CV from the About widget.
-# To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
-# - icon: cv
-#   icon_pack: ai
-#   link: files/cv.pdf
+- icon: google-scholar
+  icon_pack: ai
+  link: https://scholar.google.com/citations?user=RI79EZ8AAAAJ&hl=fr&oi=ao
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: ""
@@ -58,6 +57,6 @@ highlight_name: false
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-- MSc Students
+- PhD Students
 #- Alumni
 ---

@@ -7,11 +7,11 @@ authors:
  - arthur-barbieux
 tags: 
   - Msc Thesis
-  - Ongoing
+  - Finished
   - Security Testing
   - Artificial Intelligence
 categories: []
-date: 2024-09-29T12:38:40+02:00
+date: 2025-08-31T12:38:40+02:00
 
 # Optional external URL for project (replaces project detail page).
 external_link: ""
@@ -20,7 +20,7 @@ external_link: ""
 # To use, add an image named `featured.jpg/png` to your page's folder.
 # Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
 image:
-  caption: ""
+  caption: "Approach overview"
   focal_point: ""
   preview_only: false
 
@@ -33,7 +33,7 @@ image:
 #   icon: twitter
 
 url_code: ""
-url_pdf: ""
+url_pdf: "https://researchportal.unamur.be/en/studentTheses/mullsa"
 url_slides: ""
 url_video: ""
 

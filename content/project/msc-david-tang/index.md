@@ -34,7 +34,7 @@ image:
 #   icon: twitter
 
 url_code: ""
-url_pdf: ""
+url_pdf: "https://researchportal.unamur.be/en/studentTheses/testing-for-digital-arts"
 url_slides: ""
 url_video: ""
 

@@ -48,3 +48,5 @@ slides: ""
 ---
 
 The use of Large Language Models (LLMs) for automated test generation offers promising results but remains constrained by issues like hallucinations and prompt size limitations. This thesis investigates the integration of a graph-based Retrieval Augmented Generation (RAG) technique to enhance test generation within TestSpark, an IntelliJ IDEA plugin. We introduce GRACE-TG (Graph-Retrieved Augmented Contextual Enhancement for Test Generation), which constructs a graph of code entities using the Program Structure Interface (PSI) and rank nodes via a Personalized Weighted PageRank algorithm. This enables a precise selection of relevant context for LLMs while significantly reducing input size. Evaluation across 147 real-world Java bugs demonstrates that GRACE-TG reduces prompt sizes by over 97% compared to the current version of TestSpark, with equivalent or improved test coverage. These results suggest that graph-based retrieval can be a good candidate to improve test generation with LLMs.
+
+{{< linkedinupdate "urn:li:activity:7368313011830169602" >}}

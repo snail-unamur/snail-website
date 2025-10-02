@@ -5,6 +5,7 @@ title: "Design of an ergonomic nomadic code review environment"
 summary: ""
 authors: 
  - arturo-mozzon
+ - pawel-jalbrzykowski
 tags: 
   - Msc Thesis
   - Ongoing

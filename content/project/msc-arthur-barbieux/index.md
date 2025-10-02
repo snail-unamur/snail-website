@@ -1,7 +1,7 @@
 ---
 # Documentation: https://wowchemy.com/docs/managing-content/
 
-title: "AI-based Security Testing"
+title: "MuLLSA: Mutation with LLM and Static Analysis"
 summary: ""
 authors: 
  - arthur-barbieux
@@ -11,7 +11,7 @@ tags:
   - Security Testing
   - Artificial Intelligence
 categories: []
-date: 2025-08-31T12:38:40+02:00
+date: 2025-08-28T12:38:40+02:00
 
 # Optional external URL for project (replaces project detail page).
 external_link: ""
@@ -45,4 +45,6 @@ url_video: ""
 slides: ""
 ---
 
-The thesis will explore how artificial intelligence (Large Language Models, Genetic Programming, ...) can be leveraged to enhance security testing. The internship is done at the Serval Team at the Security and Trust (SnT) research center of the University of Luxembourg.
+Looking after bugs and vulnerabilities is one of the most important tasks in computer science, especially in the context of web applications. There are many techniques to detect and prevent these issues, one of the most widely used being mutation testing. However, creating mutants manually is a time-consuming and error-prone pro- cess. To address this, we perform a combination of static analysis and an LLM to automatically generate mutants. In this study, we compare the performance of an LLM in producing mutants based on three different static analysis tools: KAVe, WAP, and the LLM itself. Our results show significant variability between tools. Mutants produced using traditional static analysers vary heavily depending on the type of vulnerability, and tend to perform better when tools are combined. When it comes to the LLM, the quality of mutants is more consistent across different vulnerabilities, and the overall code coverage is significantly higher than traditional approaches. On the other hand, LLM-generated mutants have a higher success rate in passing initial verification, but often contain syntactic or semantic errors in the code. These findings suggest that LLMs are a promising addition to automated vulnerability testing workflows, especially when used in conjunction with static analysis tools. However, further refinement is needed to reduce the generation of incorrect or invalid code and to better align with real-world exploitability.
+
+{{< linkedinupdate "urn:li:activity:7368155477089689600" >}}

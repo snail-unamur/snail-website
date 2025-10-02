@@ -1,10 +1,10 @@
 ---
 # Display name
-title: "Victor Santelé"
+title: "Pawel Jalbrzykowski"
 
 # Username (this should match the folder name and the name on publications)
 authors:
-- "victor-santele"
+- "pawel-jalbrzykowski"
 
 # Is this the primary user of the site?
 superuser: false
@@ -22,10 +22,9 @@ bio:
 
 # List each interest with a dash
 interests:
-- Large Language Model
-- University Industry Collaboration
-- Test Case Generation
-- Artificial Intelligence
+- DevEx
+- Static Analysis
+- Code Review
 
 # Social/Academic Networking
 # For available icons, see: https://wowchemy.com/docs/page-builder/#icons
@@ -34,10 +33,10 @@ interests:
 social:
   - icon: linkedin
     icon_pack: fab
-    link: 'https://www.linkedin.com/in/victor-santele/'
-  - icon: github
-    icon_pack: fab
-    link: 'https://github.com/vsantele'
+    link: 'https://www.linkedin.com/in/pawel-jalbrzykowski-745ba421b/'
+# - icon: github
+#   icon_pack: fab
+#   link: https://github.com/USERNAME
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
 # - icon: cv
@@ -53,6 +52,6 @@ highlight_name: false
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-#- MSc Students
-- Alumni
+- MSc Students
+#- Alumni
 ---

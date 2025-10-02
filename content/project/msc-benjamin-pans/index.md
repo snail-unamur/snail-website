@@ -4,8 +4,7 @@
 title: "Using the sound dimension in code review tools"
 summary: ""
 authors: 
- - benjamin-pan
- - simon-dourte
+ - benjamin-pans
 tags: 
   - Msc Thesis
   - Ongoing

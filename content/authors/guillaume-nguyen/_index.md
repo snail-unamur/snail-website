@@ -22,8 +22,9 @@ bio:
 
 # List each interest with a dash
 interests:
-- Software Testing
-- Fuzzing
+- Compliance 
+- Conformity Assessment 
+- Cyber-Physical System
 
 # education:
 #   courses:

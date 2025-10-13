@@ -1,10 +1,10 @@
 ---
 # Display name
-title: "Jérôme Maquoi"
+title: "Sara Eraso Lasso"
 
 # Username (this should match the folder name and the name on publications)
 authors:
-- "jerome-maquoi"
+- "sara-erasolasso"
 
 # Is this the primary user of the site?
 superuser: false
@@ -23,8 +23,8 @@ bio:
 # List each interest with a dash
 interests:
   - Software Testing
-  - Sustainability
-  - Energy Consumption
+  - Cyber-Physical Systems
+  - Software Product Lines
 
 # education:
 #   courses:
@@ -42,19 +42,19 @@ interests:
 social:
   - icon: globe
     icon_pack: fas
-    link: https://jeromemaquoi.github.io
+    link: https://researchportal.unamur.be/fr/persons/smerasol
   - icon: envelope
     icon_pack: fas
-    link: 'mailto:jerome.maquoi@unamur.be'  # For a direct email link, use "mailto:test@example.org".
+    link: 'mailto:sara-maria.erasolasso@unamur.be'  # For a direct email link, use "mailto:test@example.org".
   - icon: linkedin
     icon_pack: fab
-    link: 'https://www.linkedin.com/in/jérôme-maquoi-6a6907194/'
+    link: 'https://www.linkedin.com/in/sara-eraso-lasso/'
   - icon: github
     icon_pack: fab
-    link: https://github.com/JeromeMaquoi
-  - icon: google-scholar
-    icon_pack: ai
-    link: https://scholar.google.com/citations?user=_fufHUgAAAAJ&hl=fr&oi=ao
+    link: https://github.com/sara505
+# - icon: google-scholar
+#   icon_pack: ai
+#   link: https://scholar.google.com/citations?user=_fufHUgAAAAJ&hl=fr&oi=ao
   
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.

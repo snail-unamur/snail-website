@@ -35,7 +35,7 @@ image:
 
 url_code: "https://github.com/snail-unamur/energytrackr"
 url_dataset: "https://github.com/snail-unamur/energytrackr-data"
-url_pdf: ""
+url_pdf: "https://researchportal.unamur.be/en/studentTheses/systematic-detection-of-energy-regressions-in-java-projects-and-i/"
 url_slides: ""
 url_video: ""
 

@@ -77,3 +77,5 @@ projects:
 #   Otherwise, set `slides: ""`.
 slides: ""
 ---
+
+![Poster](poster.png)

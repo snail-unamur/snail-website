@@ -9,7 +9,7 @@ tags:
   - Msc Thesis
   - Finished
   - Code Smells
-  - Code quality
+  - Software Quality
   - Software Testing
 categories: []
 date: 2022-11-04T10:14:15+01:00

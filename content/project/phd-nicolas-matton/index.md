@@ -9,9 +9,9 @@ authors:
 tags:
   - PhD Thesis
   - Ongoing
-  - Software Development Methods
-  - Agile Framework
-  - Personality
+  - Software Development
+  - Agile
+  - Socio-Technical Factors
   - Human Factors
 categories: []
 date: 2020-11-01

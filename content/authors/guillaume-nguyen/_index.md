@@ -22,7 +22,7 @@ bio:
 
 # List each interest with a dash
 interests:
-- Compliance 
+- Regulatory Compliance 
 - Conformity Assessment 
 - Cyber-Physical System
 

@@ -9,7 +9,7 @@ authors:
 tags: 
   - Msc Thesis
   - Finished
-  - Cybersecurity Testing
+  - Cybersecurity
   - Machine Learning
   - Mining Software Repository
   - Artificial Intelligence

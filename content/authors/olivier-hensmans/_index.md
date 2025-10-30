@@ -23,7 +23,7 @@ bio:
 # List each interest with a dash
 interests:
  - Code Smells
- - Code Quality
+ - Software Quality
 
 # # education:
 #   courses:

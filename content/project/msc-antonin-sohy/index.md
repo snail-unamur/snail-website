@@ -10,7 +10,7 @@ tags:
   - Finished
   - DevEx
   - Debugging
-  - Code Quality
+  - Software Quality
 categories: []
 date: 2025-06-20T12:08:19+02:00
 

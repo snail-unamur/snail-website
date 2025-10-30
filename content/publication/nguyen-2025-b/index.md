@@ -27,7 +27,7 @@ abstract: "Android devices and related applications are increasingly prevalent i
 summary: ""
 
 tags: 
-    - Compliance
+    - Conformity Assessment
     - Static analysis
 categories: []
 featured: false

@@ -9,9 +9,9 @@ authors:
   - benoit-vanderose
 tags: 
   - Agile
-  - Personality
+  - Socio-Technical Factors
   - Software Development
-  - Team Dynamics
+  - Human Factors
 categories: []
 date: 2025-07-09T11:25:42+02:00
 lastmod: 2025-07-09T11:25:42+02:00

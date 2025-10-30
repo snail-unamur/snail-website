@@ -22,7 +22,8 @@ bio:
 
 # List each interest with a dash
 interests:
-- Cybersecurity Testing
+- Cybersecurity
+- Software Testing
 - Fuzzing
 
 # education:

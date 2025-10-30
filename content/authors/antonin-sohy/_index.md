@@ -24,7 +24,7 @@ bio:
 interests:
 - DevEx
 - Debugging
-- Code Quality
+- Software Quality
 
 # Social/Academic Networking
 # For available icons, see: https://wowchemy.com/docs/page-builder/#icons

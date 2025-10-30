@@ -29,7 +29,6 @@ abstract: "Nowadays, complex Cyber-Physical Systems (CPSs) are commonly exchange
 summary: ""
 
 tags: 
-    - Compliance
     - Conformity Assessment
     - Cyber-Physical System
 categories: []

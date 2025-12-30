@@ -5,6 +5,7 @@ summary: Vous trouverez sur ce site web tout le matériel nécessaire pour les d
 date: '2025-07-24'
 type: book
 tags: 
+    - Education
 ---
 
 {{< toc hide_on="xl" >}}

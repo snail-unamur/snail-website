@@ -12,7 +12,7 @@ tags:
 
 Vous trouverez sur ce site web le syllabus du cours d'introduction à la démarche scientifique. Il reprends les différents étapes d'une démarche scientifique en informatique avec des pointeurs vers des resources utiles pour les étudiants, les doctorants et les chercheurs.
 
-⚠️ Attention, ce syllabus adopte une approche pratico-pratique, il n'est pas suffisant pour comprendre **ce qu'est** une démarche scientifique. Pour cela, il faudra venir suivre le cours. 😉
+⚠️ Attention, ce syllabus adopte une approche pratico-pratique, il donne des informations sur **comment** exécuter une démarche scientifique, mais n'est pas suffisant pour comprendre **pourquoi** exécuter une démarche scientifique. Pour cela, il faudra venir suivre le cours. 😉
 
 ## Liste des séances
 
@@ -35,6 +35,10 @@ Vous trouverez sur ce site web le syllabus du cours d'introduction à la démarc
 
 {{< spoiler text="Y a-t-il des prérequis pour suivre ce cours ?" >}}
 Une certaine culture générale en informatique, ainsi qu'une compréhension de base de ce qu'est l'informatique sont nécessaires. Le but du cours est de te donner une vue générale de ce qu'est la recherche en informatique, ainsi que les premiers éléments pour pouvoir mener une recherche scientifique.
+{{< /spoiler >}}
+
+{{< spoiler text="À qui s'adresse ce cours ?" >}}
+Le syllabus original a été rédigé pour les étudiants du cours d'introduction à la démarche scientifique (INFOB302). Néanmoins, le contenu s'adresse à toute personne cherchant à en savoir plus sur la recherche scientifique en informatique et plus particulièrement en génie logiciel. Chaque chapitre se termine par une liste de pointeurs vers des ressources additionnelles. N'hésitez pas à nous en envoyer d'autres si vous trouvez des choses intéressantes. 😉
 {{< /spoiler >}}
 
 {{< cta cta_text="Commencer le cours 🎉" cta_link="chapitre01" >}}

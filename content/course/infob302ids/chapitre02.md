@@ -89,6 +89,7 @@ Ce n'est pas tout de trouver des articles, il est aussi nécessaire de pouvoir l
 
 Il existe un certain nombre d'outils permettant de faciliter la recherche (y compris via snowballing), plusieurs d'entre eux intégrant des outils propulsés par l'IA. ⚠️ Attention à l'utilisation de ces outils : comme tous les outils propulsés par l'IA, ils sont aussi bons que les données sur lesquelles ils ont été entraînés (*crap in - crap out*). Vérifier les références sur une base de donnée de référence comme [DBLP](https://dblp.org) évitera pas mal d'ennuis.
 
+- [Connected Papers](https://www.connectedpapers.com) permet de visualiser les citations sous forme de graphe (5 graphes par mois dans la version gratuite).
 - [ResearchRabbit](https://app.researchrabbit.ai) permet de visualiser les citations sous forme de graphe. La version gratuite permet déjà de faire un grand nombre de choses.
 - [Consensus](https://consensus.app) permet d'avoir un rapide aperçu de l'état de l'art d'un sujet donnée sur base d'une phrase ou d'une question. Le problème est que sans un minimum de connaissance du domaine de recherche visé, il est difficile de savoir quels mots clés utiliser ou quelle question poser (ou de voir si le résultat généré est cohérent avec l'état de l'art que vous voulez explorer).
 - [Perplexity Academic](https://www.perplexity.ai/academic) est une version spécialisé de Perplexity. À nouveau, à utiliser avec précaution, la réponse dépendra de l'utilisation des bons mots clés du domaine de recherche.

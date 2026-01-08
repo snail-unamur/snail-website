@@ -38,6 +38,9 @@ Cette procédure permet, d'une part, une première évaluation par les pairs ava
 - [Some Research Paper Writing Recommendations](https://avandeursen.com/2013/07/10/research-paper-writing-recommendations/)
 - [La structure d'un article scientifique](https://www.scribbr.fr/article-scientifique/structure-article-scientifique/)
 - [How to write a scientific abstract in six easy steps](https://www.easterbrook.ca/steve/2010/01/how-to-write-a-scientific-abstract-in-six-easy-steps/)
+
+### LaTeX
+
 - [Overleaf - Learn LaTeX in 30 minutes](https://www.overleaf.com/learn/latex/Learn_LaTeX_in_30_minutes)
 - [Overleaf - LaTeX tutorials](https://docs.overleaf.com/getting-started/latex-tutorials)
 - [MiKTeX - TeX distribution for Windows, Linux and macOS](https://miktex.org)

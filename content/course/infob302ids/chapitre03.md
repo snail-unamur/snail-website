@@ -81,49 +81,25 @@ En fonction des objectifs de la recherche, il est possible de partir d'un certai
 
 Le framework PICOT est couramment utilisé dans la recherche clinique. Il permet d'identifier les éléments essentiels qui doivent apparaître dans un question de recherche ou de vérifier qu'une question de recherche est bien formulée, c'est-à-dire qu'elle délimite bien le cadre de la recherche.
 
-### Patient, population ou problème
-
-Qui ou quoi est le patient, la population ou le problème en question ? Par exemple, des classes Java.
-
-### Intervention
-
-Quelle est l'intervention (action ou traitement) envisagée ? Par exemple, la génération de tests unitaires avec l'outils XYZ.
-
-### Comparaison ou contrôle
-
-Quelles autres interventions devraient être envisagées ? Par exemple, la génération de tests unitaires avec les outils standards A, B et C.
-
-### Résultat ou objectif
-
-Quel est le résultat ou l'objectif souhaité ou attendu ? Par exemple comparer la capacité à détecter des fautes en utilisant le score de mutation.
-
-### Délai (Time)
-
-Combien de temps faudra-t-il pour atteindre le résultat souhaité ? Par exemple, en utilisant des *time budgets* de 1, 3 et 5 minutes pour les différents outils.
+| Element                              | Description                                                                                                                                        |
+| ------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Patient, population ou problème**  | Qui ou quoi est le patient, la population ou le problème en question ? Par exemple, des classes Java.                                              |
+| **Intervention**                     | Quelle est l'intervention (action ou traitement) envisagée ? Par exemple, la génération de tests unitaires avec l'outils XYZ.                      |
+| **Comparaison ou contrôle**          | Quelles autres interventions devraient être envisagées ? Par exemple, la génération de tests unitaires avec les outils standards A, B et C.        |
+| **Résultat ou objectif**             | Quel est le résultat ou l'objectif souhaité ou attendu ? Par exemple comparer la capacité à détecter des fautes en utilisant le score de mutation. |
+| **Délai (Time)**                     | Combien de temps faudra-t-il pour atteindre le résultat souhaité ? Par exemple, en utilisant des *time budgets* de 1, 3 et 5 minutes pour les différents outils. |
 
 ## La checklist FINER
 
 Le checklist suivante permet de vérifier qu'une question de recherche est de bonne qualité. Cette liste se concentre sur la réalisabilité de la recherche. Elle est complémentaire au framework PICOT qui se concentre sur le cadre (scope) de la recherche.
 
-### Faisable
-
-Le chercheur est-il capable d'étudier la question de recherche ?
-
-### Intéressante
-
-La question de recherche est-elle intéressante pour le chercheur, ses pairs et la communauté ?
-
-### Novatrice
-
-La réponse à la question apporte-t-elle de nouvelles perspectives ou confirme-t-elle des résultats antérieurs ?
-
-### Éthique
-
-La réponse à la question de recherche respecte-t-elle les normes éthiques et juridiques du chercheur et de son institution ?
-
-### Pertinente (Relevant)
-
-La question de recherche est-elle pertinente pour la communauté scientifique (et le grand public) ?
+| Element                              | Description                                                                                                                  |
+| ------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------- |
+| **Faisable**                         | Le chercheur est-il capable d'étudier la question de recherche ?                                                             |
+| **Intéressante**                     | La question de recherche est-elle intéressante pour le chercheur, ses pairs et la communauté ?                               |
+| **Novatrice**                        | La réponse à la question apporte-t-elle de nouvelles perspectives ou confirme-t-elle des résultats antérieurs ?              |
+| **Éthique**                          | La réponse à la question de recherche respecte-t-elle les normes éthiques et juridiques du chercheur et de son institution ? |
+| **Pertinente (Relevant)**            | La question de recherche est-elle pertinente pour la communauté scientifique (et le grand public) ?                          |
 
 ## Resources additionnelles
 

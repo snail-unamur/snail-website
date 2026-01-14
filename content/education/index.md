@@ -53,8 +53,8 @@ sections:
       # Filter on criteria
       filters:
         # The folders to display content from
-        # folders:
-        #   - course
+        folders:
+          - course
         # author: ""
         # category: ""
         # tag: ""
@@ -63,15 +63,11 @@ sections:
         # exclude_featured: false
         # exclude_future: false
         # exclude_past: false
-      filters:
-        # Folders to display content from
-        folders:
-          - course
         # Only show content with these tags
         tags: []
         # Exclude content with these tags
         exclude_tags: 
-            - preface
+          - preface
         # Which Hugo page kinds to show (https://gohugo.io/templates/section-templates/#page-kinds)
         kinds:
           - section

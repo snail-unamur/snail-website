@@ -3,7 +3,6 @@
 
 title: "Training machine learning models for vulnerability prediction and injection using datasets of vulnerability-inducing commits"
 summary: ""
-authors: []
 authors: 
  - jeremie-dierickx
 tags: 

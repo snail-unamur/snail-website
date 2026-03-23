@@ -16,7 +16,7 @@ date: '2026-03-21'
 lastmod: 2026-03-21T10:22:30+02:00
 featured: false
 draft: false
-doi:
+doi: 10.5281/zenodo.19185368
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.

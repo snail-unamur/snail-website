@@ -1,6 +1,6 @@
 ---
 # Display name
-title: "Kévin schweitzer"
+title: "Kévin Schweitzer"
 
 # Username (this should match the folder name and the name on publications)
 authors:

@@ -12,7 +12,7 @@ Ce chapitre introduit l’automatisation appliquée au génie logiciel et pose l
 
 Objectifs du chapitre. À l’issue de la lecture, vous serez capable de :
 
-- caractériser les avantages et limites de l’automatisation; 
+- caractériser les avantages et limites de l’automatisation;
 - relier les activités de génie logiciel aux outils et pratiques automatisées (CI/CD, monitoring, IaC); 
 - situer l’Automated Software Engineering (ASE) et ses enjeux humains, techniques et éthiques; 
 - comprendre l’organisation et les attentes du cours.

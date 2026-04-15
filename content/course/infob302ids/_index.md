@@ -1,7 +1,7 @@
 ---
-title: "🔬 Cours d'introduction à la démarche scientifique (INFOB302)"
-linkTitle: "Introduction à la démarche scientifique"
-summary: Vous trouverez sur ce site web le syllabus du cours d'introduction à la démarche scientifique. Il reprends les différents étapes d'une démarche scientifique en informatique avec des pointeurs vers des resources utiles pour les étudiants, les doctorants et les chercheurs.
+title: "🔬 Cours d'Initiation à la démarche scientifique (INFOB302)"
+linkTitle: "Initiation à la démarche scientifique"
+summary: Vous trouverez sur ce site web le syllabus du cours d'initiation à la démarche scientifique. Il reprends les différents étapes d'une démarche scientifique en informatique avec des pointeurs vers des resources utiles pour les étudiants, les doctorants et les chercheurs.
 date: '2025-09-15'
 type: book
 tags: 

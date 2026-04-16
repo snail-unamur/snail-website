@@ -8,12 +8,14 @@ summary: Ce chapitre s'adresse aux étudiantes et étudiants en informatique / g
 
 {{< toc hide_on="xl" >}}
 
-Ce chapitre s'adresse aux étudiantes et étudiants en informatique / génie logiciel. Il présente une vue structurée et pédagogique de DevOps, de ses métriques de performance, de la culture organisationnelle qui le rend possible, des pratiques techniques (Continuous Integration / Continuous Delivery), de l'architecture qui les supporte, et du pipeline de production logicielle.
+Ce chapitre présente une vue structurée des approches DevOps, de ses métriques de performance, de la culture organisationnelle qui le rend possible, des pratiques techniques (Continuous Integration / Continuous Delivery), de l'architecture qui les supporte, et du pipeline de production logicielle.
 
 L'objectif est double :
 
 - comprendre pourquoi et comment accélérer la livraison de logiciels tout en améliorant la qualité et la fiabilité ;
 - disposer d'un cadre conceptuel et pratique pour concevoir, mesurer et améliorer un processus logiciel dans un contexte académique ou industriel.
+
+----------------------------------------
 
 ## De Business as usual à DevOps
 
@@ -29,6 +31,8 @@ Accélérer ne signifie pas livrer « plus » à tout prix. Il s'agit de livrer 
 - Banques : passage du coffre-fort au trading à faible latence, explosion des canaux digitaux (web, mobile), exigences de sécurité et conformité élevées. Pointeur : [The Big Short : Le Casse du siècle](https://fr.wikipedia.org/wiki/The_Big_Short_:_Le_Casse_du_si%C3%A8cle)
 - Secteur public : e‑government et services en ligne ; attention au fossé numérique et à l’accessibilité.
 - Écosystèmes OS / plateformes (Apple/Microsoft) : des livraisons espacées (tous les 3–4 ans) vers des mises à jour quasi continues nécessitant une infrastructure d’industrialisation. Pointeur : [Pop-Code 23 - Steve Jobs : Le mythe de l'entrepreneur](https://podcast.ausha.co/popcode/23-steve-jobs-le-mythe-de-l-entrepreneur).
+
+----------------------------------------
 
 ## DevOps
 
@@ -53,14 +57,27 @@ Deuxièmement, **mesurer des résultats généraux (*outcomes*) plutôt que l’
 
 ![Silos between roles](silos.jpg "Silos entre les différents rôles d'une équipe de développement ([source](https://www.linkedin.com/pulse/remove-walls-confusion-rethink-devops-unlock-its-full-glenn-mason/))")
 
-## 3. Mesurer la performance
+----------------------------------------
 
-### 3.1. Les fausses bonnes idées
-- Lignes de code (LOC) : incite à produire du volume, pas de la qualité ; se contourne facilement.
-- Vélocité agile : mesure relative et contextuelle ; favorise le « gaming » (estimation gonflée, siloisation), décourage la collaboration inter‑équipes.
+## Mesurer la performance
 
-### 3.2. Mesurer des *outcomes* : les 4 métriques DORA
-Les métriques DORA couvrent vitesse et stabilité de la livraison logicielle :
+Contrairement à une gestion de stock classique, les artefacts logiciels sont invisibles et peuvent être reproduits à l'identique à l'infini (copier/coller). La décomposition du travail est égelement souvent arbitraire : elle peut être basée sur des fonctionnalités ou des user stories, sur la conception architecturale, ou encore sur les ressources disponibles. La priorisation devient alors une question clé, d’autant plus que les activités de conception et de livraison se déroulent simultanément. Le design doit changer et évoluer en fonction de ce que l’on apprend en tentant de l’implémenter.
+
+La première étape pour adopter une approche DevOps consiste donc à définir une mesure valide et fiable de la performance de livraison logicielle.
+
+### Les fausses bonnes idées
+
+#### Le nombre de lignes de code (LOC) écrites
+
+Mesurer le nombre de lignes de code écrites sur une durée incite à produire du volume, pas de la qualité. De plus, la mesure peut se contourner facilement en gonflant artificiellement ce chiffre.
+
+#### La vélocité
+
+Mesurer le nombre de features, user stories ou epics acceptés par le client à la fin d'une période donnée cause le même genre de problèmes. De plus, la mesure est contextuelle et va varier grandement en fonction de l'équipe et du contexte de développement. Lorsque la vélocité est utilisée, l'expérience a montré que les équipes ont tendance à appliquer une approche gamifiée en gonflant leurs estimations et en se concentrant sur la réalisation du plus grand nombre d’histoires possible au détriment de la collaboration avec les autres équipes (ce qui pourrait diminuer leur vélocité et augmenter celle des autres équipes, les faisant paraître moins performants). L'effet à long terme est un renforcement de la siloisation et une diminution de la collaboration inter‑équipes.
+
+### Mesurer des *outcomes* via les 4 métriques DORA
+
+Les métriques [DORA](https://dora.dev/) couvrent vitesse et stabilité de la livraison logicielle :
 1. Lead time for changes (Change lead time) : durée entre le commit et le déploiement réussi en production. Plus court → feedback rapide, corrections plus promptes.
 2. Deployment frequency : fréquence des déploiements en production (ou publication en store). Proxy de la taille de lot ; viser des lots petits et fréquents.
 3. Mean Time To Restore (MTTR) : temps nécessaire pour restaurer le service après incident. L’enjeu n’est pas d’éviter toute panne (les systèmes sont complexes), mais de revenir vite à un fonctionnement normal.
@@ -71,7 +88,7 @@ Les enquêtes annuelles classent les organisations (faible, moyen, élevé, « �
 
 > À retenir : les métriques DORA sont orientées résultats, mesurables automatiquement (via SCM, CI/CD, monitoring), et actionnables.
 
----
+----------------------------------------
 
 ## 4. Culture organisationnelle : le socle invisible de DevOps
 
@@ -89,7 +106,7 @@ Plus la culture est « générative », plus les flux d’information sont de qu
 - Postmortems « blameless » : analyser les incidents pour apprendre et améliorer le système, pas pour chercher un « coupable ».
 - Deuxième histoire (second story) : aller au‑delà de « l’erreur humaine » pour identifier des vulnérabilités systémiques, des manques d’outils, de formation ou des processus inadaptés.
 
----
+----------------------------------------
 
 ## 5. Continuous Delivery (CD) : principes et fondations
 
@@ -110,7 +127,7 @@ Le CD est un ensemble de capacités permettant de livrer tout type de changement
 
 > Astuce : viser la capacité à faire du déploiement en continu (Continuous Deployment), même si on garde un contrôle humain (« release approval »).
 
----
+----------------------------------------
 
 ## 6. Architecture : concevoir pour tester et déployer
 
@@ -147,7 +164,7 @@ Indicateurs pratiques : capacité à faire des changements large‑échelle sans
 - Loi de Conway : les systèmes « copient » les structures de communication ; concevoir l’architecture pour réduire les besoins de communication fine inter‑équipes.
 - Manœuvre de Conway inversée : faire évoluer l’organisation pour atteindre l’architecture souhaitée (découpage en domaines et bounded contexts, API explicites).
 
----
+----------------------------------------
 
 ## 7. Pipeline de production logicielle
 
@@ -167,7 +184,7 @@ Les déclinaisons CI / CD / Continuous Deployment marquent le degré d’automat
 - Jenkins Pipelines : orchestrations déclaratives/impératives pour CI/CD ; intégrations riches avec SCM et outils de tests.
 - Autres orchestrateurs (selon contexte) : GitHub Actions, GitLab CI, etc.
 
----
+----------------------------------------
 
 ## 8. Exemples industriels (enseignements)
 
@@ -176,7 +193,7 @@ Les déclinaisons CI / CD / Continuous Deployment marquent le degré d’automat
 - Netflix : Chaos Engineering (p. ex. *Chaos Monkey*) pour tester en production la résilience ; incidents traités comme matière d’apprentissage ; architecture visant à limiter l’impact d’une panne.
 - Etsy : blameless postmortems et guides de débriefing ; diffusion de pratiques favorisant une culture de la transparence et de l’amélioration.
 
----
+----------------------------------------
 
 ## 9. Ambiguïtés, hypothèses et limites
 
@@ -184,7 +201,7 @@ Les déclinaisons CI / CD / Continuous Deployment marquent le degré d’automat
 - La distinction capacité vs maturité : nous privilégions un modèle de capacités (amélioration continue, outcomes) plutôt qu’un modèle de maturité (checklists statiques). Hypothèse : l’organisation vise une progression durable plutôt qu’une attestation ponctuelle.
 - Tests en production (type chaos) ne sont pas universellement transposables ; requis : architecture résiliente, observabilité, gestion des risques.
 
----
+----------------------------------------
 
 ## 10. Résumé – Points clés
 
@@ -195,7 +212,7 @@ Les déclinaisons CI / CD / Continuous Deployment marquent le degré d’automat
 - L’architecture doit viser des systèmes faiblement couplés pour tester et déployer en isolation ; l’organisation et l’architecture s’co‑évoluent (Conway).
 - Le pipeline CI/CD industrialise la transformation du code en logiciel prêt pour la production ; il doit être mesuré, observé et amélioré.
 
----
+----------------------------------------
 
 ## 11. Pour aller plus loin (pistes d’étude et de pratique)
 

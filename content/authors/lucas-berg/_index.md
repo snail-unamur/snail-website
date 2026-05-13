@@ -18,7 +18,7 @@ organizations:
   url: ""
 
 # Short bio (displayed in user profile at end of posts)
-bio: 
+bio: "Lucas Berg is pursuing a Ph.D. in computer science as a research assistant under the supervision of Professors Wim Vanhoof and Xavier Devroey."
 
 # List each interest with a dash
 interests:

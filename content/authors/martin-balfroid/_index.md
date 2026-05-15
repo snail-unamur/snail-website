@@ -56,6 +56,9 @@ social:
   - icon: google-scholar
     icon_pack: ai
     link: https://scholar.google.com/citations?user=12vnWMoAAAAJ&hl=fr&oi=ao
+  - icon: orcid
+    icon_pack: ai
+    link: https://orcid.org/0000-0002-1318-1184
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: ""

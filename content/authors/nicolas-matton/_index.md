@@ -43,6 +43,9 @@ social:
 - icon: github
   icon_pack: fab
   link: https://github.com/nmatton
+- icon: orcid
+  icon_pack: ai
+  link: https://orcid.org/0000-0002-8479-7250
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: ""

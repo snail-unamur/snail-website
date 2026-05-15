@@ -40,6 +40,9 @@ social:
   - icon: linkedin
     icon_pack: fab
     link: 'https://www.linkedin.com/in/julie-henry-d1g1factory/'
+  - icon: orcid
+    icon_pack: ai
+    link: https://orcid.org/0000-0003-4354-9848
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: ""

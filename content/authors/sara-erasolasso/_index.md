@@ -52,6 +52,9 @@ social:
   - icon: github
     icon_pack: fab
     link: https://github.com/sara505
+  - icon: orcid
+    icon_pack: ai
+    link: https://orcid.org/0009-0002-7637-3869
 # - icon: google-scholar
 #   icon_pack: ai
 #   link: https://scholar.google.com/citations?user=_fufHUgAAAAJ&hl=fr&oi=ao

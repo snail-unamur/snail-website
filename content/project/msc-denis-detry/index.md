@@ -9,7 +9,7 @@ tags:
   - Msc Thesis
   - Finished
   - Virtual Reality
-  - Performance Testing
+  - Performance
 categories: []
 date: 2025-06-23T10:47:40+02:00
 

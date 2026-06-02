@@ -23,7 +23,7 @@ bio:
 # List each interest with a dash
 interests:
 - Virtual Reality
-- Performance Testing
+- Performance
 
 # Social/Academic Networking
 # For available icons, see: https://wowchemy.com/docs/page-builder/#icons

@@ -23,7 +23,7 @@ bio: My research goal is to to ease software testing by exploring new paths to a
 # List each interest with a dash
 interests:
 - Software Testing
-- Search-based Software Engineering
+- Search-Based Software Engineering
 - Software Product Lines
 - Automated Software Engineering
 

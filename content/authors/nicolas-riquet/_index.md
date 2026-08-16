@@ -22,7 +22,7 @@ bio: I am the head of Software Engineering Productivity at Le Forem, a public se
 
 # List each interest with a dash
 interests:
-- Socio-technical Debt
+- Socio-Technical Debt
 - Software Maintenance
 
 # education:

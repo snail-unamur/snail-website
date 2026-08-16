@@ -23,7 +23,7 @@ doi: "10.1145/3644384.3644473"
 
 tags:
 - Socio-Technical Factors
-- Socio-technical Debt
+- Socio-Technical Debt
 - Software Engineering
 
 # links:

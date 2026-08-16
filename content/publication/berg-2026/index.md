@@ -32,7 +32,7 @@ abstract: "Many popular Python libraries use C-extensions for performance-critic
 summary: ""
 
 tags: 
-    - Seach-Based Software Testing
+    - Search-Based Software Testing
     - Software Testing
 categories: []
 featured: false

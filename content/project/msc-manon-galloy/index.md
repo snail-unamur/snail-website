@@ -8,7 +8,7 @@ authors:
 tags:
   - Msc Thesis
   - Finished
-  - Behaviour-Driven Development
+  - Behavior-Driven Development
   - Large Language Model
   - Artificial Intelligence
 categories: []

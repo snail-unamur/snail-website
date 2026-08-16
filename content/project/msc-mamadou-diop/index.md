@@ -8,7 +8,7 @@ authors:
 tags: 
   - Msc Thesis
   - Finished
-  - Socio-technical Debt
+  - Socio-Technical Debt
 categories: []
 date: 2025-06-23T10:14:15+01:00
 

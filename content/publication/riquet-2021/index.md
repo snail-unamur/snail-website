@@ -8,7 +8,7 @@ authors:
   - xavier-devroey
   - benoit-vanderose
 tags:
-  - Socio-technical Factors
+  - Socio-Technical Factors
   - University Industry Collaboration
   - Mining Software Repository
 date: '2021-12-07'

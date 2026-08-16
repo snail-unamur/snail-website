@@ -41,7 +41,7 @@ image:
 projects: []
 publishDate: '2022-10-06T13:58:49.429378Z'
 publication_types: ["article-journal"]
-abstract: Search-based techniques have been widely used for white-box test generation.
+abstract: Search-Based techniques have been widely used for white-box test generation.
   Many of these approaches rely on the approach level and branch distance heuristics
   to guide the search process and generate test cases with high line and branch coverage.
   Despite the positive results achieved by these two heuristics, they only use the

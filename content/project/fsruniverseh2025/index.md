@@ -10,7 +10,7 @@ tags:
   - Funded
   - Ongoing
   - UNIVERSEH
-  - CyberCyber-Physical System
+  - Cyber-Physical System
   - Software Testing
   - Software Product Lines
 categories: []

@@ -22,7 +22,7 @@ bio:
 
 # List each interest with a dash
 interests:
-- Behaviour-Driven Development
+- Behavior-Driven Development
 - Large Language Model
 - Artificial Intelligence
 

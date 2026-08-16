@@ -7,7 +7,7 @@ summary: ""
 authors: 
     - xavier-devroey
 tags: 
-    - Academic life
+    - Academic Life
 categories: []
 date: 2023-01-09T12:00:00+02:00
 lastmod: 2023-04-25T07:24:50+02:00

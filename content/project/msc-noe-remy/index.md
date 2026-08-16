@@ -8,7 +8,7 @@ authors:
 tags: 
   - Msc Thesis
   - Ongoing
-  - Socio-technical Debt
+  - Socio-Technical Debt
   - DevEx
 categories: []
 date: 2025-09-15T12:08:19+02:00
@@ -45,5 +45,5 @@ url_video: ""
 slides: ""
 ---
 
-This project aims to investigate the relationship between developer experience and socio-technical debt within software engineering teams. Socio-technical debt represents the accumulated costs and challenges arising from suboptimal decisions in both technical and social aspects of software development, such as poor code quality, lack of documentation, ineffective communication, and misaligned team practices.
+This project aims to investigate the relationship between developer experience and socio-technical debt within software engineering teams. Socio-Technical debt represents the accumulated costs and challenges arising from suboptimal decisions in both technical and social aspects of software development, such as poor code quality, lack of documentation, ineffective communication, and misaligned team practices.
 By providing actionable insights, this project seeks to help organizations foster better working environments, minimize socio-technical debt, and enhance the long-term sustainability and maintainability of their software projects.

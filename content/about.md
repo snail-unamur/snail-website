@@ -44,7 +44,7 @@ sections:
           description:
           icon: robot
           icon_pack: fas
-        - name: Socio-technical Aspects
+        - name: Socio-Technical Aspects
           description:
           icon: universal-access
           icon_pack: fas

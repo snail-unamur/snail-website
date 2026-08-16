@@ -22,7 +22,7 @@ publication: "*19th International Conference on Mining Software Repositories (MS
 doi: "10.1145/3524842.3528003"
 
 tags:
-  - Socio-technical Factors
+  - Socio-Technical Factors
   - University Industry Collaboration
   - Mining Software Repository
 

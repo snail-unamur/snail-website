@@ -1,7 +1,7 @@
 ---
 # Documentation: https://wowchemy.com/docs/managing-content/
 
-title: "JCrashPack2.0: Search-based crash reproduction hardness analysis"
+title: "JCrashPack2.0: Search-Based crash reproduction hardness analysis"
 summary: "This master thesis project, revisits the links between search-based crash reproduction and software quality metrics to assess the hardness of search-based crash reproducing test case generation."
 authors:
   - boris-cherry

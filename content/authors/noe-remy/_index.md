@@ -22,7 +22,7 @@ bio:
 
 # List each interest with a dash
 interests:
-- Socio-technical Debt
+- Socio-Technical Debt
 - DevEx
 
 # Social/Academic Networking

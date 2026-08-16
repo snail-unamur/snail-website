@@ -9,7 +9,7 @@ tags:
   - Msc Thesis
   - Finished
   - Software Testing
-  - Search-based Software Testing
+  - Search-Based Software Testing
   - Fuzzing
   - Artificial Intelligence
 categories: []

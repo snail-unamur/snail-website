@@ -3,7 +3,7 @@
 
 title: "UltraInstinctVR: A Model-Based Tool for Automated System Testing of VR Applications"
 authors: 
-    - Gerry Longfils
+    - gerry-longfils
     - Maxime Cauz
     - Arnaud Blouin
     - xavier-devroey

@@ -32,7 +32,7 @@ summary: ""
 
 tags: 
     - REST REST API
-    - Large Large Language Model
+    - Large Language Model
     - Software Maintenance
 categories: []
 featured: false
